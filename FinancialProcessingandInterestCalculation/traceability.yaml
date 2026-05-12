@@ -1,0 +1,127 @@
+function: FinancialProcessingandInterestCalculation
+generated_at: '2026-05-06T22:08:21Z'
+summary:
+  total_rules: 19
+  captured: 15
+  not_applicable: 4
+rules:
+- rule_id: 1497143c_6c06_4ce1_9122_35e914a56529
+  program: INTCALC
+  disposition: captured
+  req_id: REQ-F-001
+- rule_id: 1cdeab11_0f48_4ffa_ac2c_ffc7cef5d0b9
+  program: INTCALC
+  disposition: captured
+  req_id: REQ-F-003
+- rule_id: 22c4055b_8a77_4a30_9b93_b5534dea642d
+  program: CBACT04C
+  disposition: captured
+  req_id: REQ-F-005
+- rule_id: 3574427f_f9c2_4251_a4de_f9c8c58adfb6
+  program: CBACT04C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 3e339a51_96d4_4543_b03f_61b5f6c38b24
+  program: INTCALC
+  disposition: captured
+  req_id: REQ-F-004
+- rule_id: 5b0edf24_d84c_4231_9fb2_44a8a98f17e2
+  program: CBACT04C
+  disposition: captured
+  req_id: REQ-F-008
+- rule_id: 65cabd04_ccab_4442_8eeb_774115c8aa9e
+  program: CBACT04C
+  disposition: captured
+  req_id: REQ-F-002
+- rule_id: 7a493179_73d5_4628_9f5c_3f37698191d7
+  program: CBACT04C
+  disposition: captured
+  req_id: REQ-F-010
+- rule_id: a2bfb526_7900_417b_8ca5_2fe27d3d3e01
+  program: INTCALC
+  disposition: captured
+  req_id: REQ-F-002
+- rule_id: adcf789c_bfe6_4dac_80d3_484adaa2c763
+  program: CBACT04C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: b268baba_17db_4779_98aa_3363f5e737b2
+  program: CBACT04C
+  disposition: captured
+  req_id: REQ-F-005
+- rule_id: c7017c4d_f227_4b16_8ec2_77435cb96e5c
+  program: CBACT04C
+  disposition: captured
+  req_id: REQ-F-006
+- rule_id: d3683964_2281_446b_abef_1b2ea5f02186
+  program: CBACT04C
+  disposition: captured
+  req_id: REQ-F-003
+- rule_id: d66000b9_8dc7_4e5c_93e7_14db1812961a
+  program: INTCALC
+  disposition: captured
+  req_id: REQ-F-001
+- rule_id: de5ca90c_9f96_4f30_a5c6_2c128fcb2529
+  program: CBACT04C
+  disposition: captured
+  req_id: REQ-F-002
+- rule_id: e61a00bb_1a12_4b80_a7da_57cd18a66082
+  program: CBACT04C
+  disposition: captured
+  req_id: REQ-F-007
+- rule_id: f2ddbb16_6c9a_411a_b892_3178a1d3a47a
+  program: INTCALC
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: f4b7009a_d0c4_4b16_a432_b736a70b15d3
+  program: CBACT04C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: fa3b51d5_3f63_4bd0_85cb_645209d0d512
+  program: CBACT04C
+  disposition: captured
+  req_id: REQ-F-006
+requirements:
+- req_id: REQ-F-001
+  rule_ids:
+  - 1497143c_6c06_4ce1_9122_35e914a56529
+  - d66000b9_8dc7_4e5c_93e7_14db1812961a
+- req_id: REQ-F-002
+  rule_ids:
+  - 65cabd04_ccab_4442_8eeb_774115c8aa9e
+  - de5ca90c_9f96_4f30_a5c6_2c128fcb2529
+  - a2bfb526_7900_417b_8ca5_2fe27d3d3e01
+  - 65cabd04_ccab_4442_8eeb_774115c8aa9e
+  - de5ca90c_9f96_4f30_a5c6_2c128fcb2529
+- req_id: REQ-F-003
+  rule_ids:
+  - d3683964_2281_446b_abef_1b2ea5f02186
+  - 1cdeab11_0f48_4ffa_ac2c_ffc7cef5d0b9
+  - d3683964_2281_446b_abef_1b2ea5f02186
+- req_id: REQ-F-004
+  rule_ids:
+  - 22c4055b_8a77_4a30_9b93_b5534dea642d
+  - 3e339a51_96d4_4543_b03f_61b5f6c38b24
+  - b268baba_17db_4779_98aa_3363f5e737b2
+- req_id: REQ-F-005
+  rule_ids:
+  - b268baba_17db_4779_98aa_3363f5e737b2
+  - 22c4055b_8a77_4a30_9b93_b5534dea642d
+- req_id: REQ-F-006
+  rule_ids:
+  - c7017c4d_f227_4b16_8ec2_77435cb96e5c
+  - fa3b51d5_3f63_4bd0_85cb_645209d0d512
+  - c7017c4d_f227_4b16_8ec2_77435cb96e5c
+  - fa3b51d5_3f63_4bd0_85cb_645209d0d512
+- req_id: REQ-F-007
+  rule_ids:
+  - e61a00bb_1a12_4b80_a7da_57cd18a66082
+  - e61a00bb_1a12_4b80_a7da_57cd18a66082
+- req_id: REQ-F-008
+  rule_ids:
+  - 5b0edf24_d84c_4231_9fb2_44a8a98f17e2
+  - 5b0edf24_d84c_4231_9fb2_44a8a98f17e2
+- req_id: REQ-F-010
+  rule_ids:
+  - 7a493179_73d5_4628_9f5c_3f37698191d7
+  - 7a493179_73d5_4628_9f5c_3f37698191d7

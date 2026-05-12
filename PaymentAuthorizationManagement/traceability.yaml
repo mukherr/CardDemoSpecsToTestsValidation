@@ -1,0 +1,829 @@
+function: PaymentAuthorizationManagement
+generated_at: '2026-05-06T22:09:15Z'
+summary:
+  total_rules: 143
+  captured: 92
+  not_applicable: 51
+rules:
+- rule_id: 01664484_08b9_48b3_b098_a63949801024
+  program: COPAUS1C
+  disposition: captured
+  req_id: REQ-F-046
+- rule_id: 03df07d8_7abc_43a3_a0ed_4cb4346e80d1
+  program: COPAUS2C
+  disposition: captured
+  req_id: REQ-F-029
+- rule_id: 051d90ee_2c75_4071_93a8_acd8a25cc241
+  program: PAUDBLOD
+  disposition: captured
+  req_id: REQ-F-075
+- rule_id: 0843b7da_0196_4860_9425_0d4edf79c156
+  program: UNLDPADB
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 086d64f5_5088_48b0_ab59_f65d0f730ee7
+  program: DBUNLDGS
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 08a86a0c_97a5_46a5_910e_2ac70422b5a7
+  program: PAUDBUNL
+  disposition: captured
+  req_id: REQ-F-090
+- rule_id: 09184ce8_106c_4721_8622_b3aa728eb405
+  program: PAUDBUNL
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 0aa80a5f_32ac_4d6b_b702_9fae1e8bf66e
+  program: COPAUS0C
+  disposition: captured
+  req_id: REQ-F-022
+- rule_id: 0c57ff6f_f40c_4419_aa64_9cd9b900d1ec
+  program: UNLDPADB
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 0cdb0002_4cbc_4167_bc25_aa9079ea608d
+  program: COPAUS0C
+  disposition: not_applicable
+  reason: '[Pattern-classified] CICS/BMS platform mechanics'
+- rule_id: 0d237da9_296b_46fb_89b8_9011f8cc9d15
+  program: LOADPADB
+  disposition: captured
+  req_id: REQ-N-003
+- rule_id: 0d8de7f0_fa35_436d_af0a_aba6dda07d5b
+  program: COPAUS2C
+  disposition: captured
+  req_id: REQ-F-026
+- rule_id: 0dcecad0_3c59_4aea_9055_587eef1a21f5
+  program: DBUNLDGS
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 0ef563b7_55a2_4d1b_b091_265ae2f9cbb0
+  program: CBPAUP0C
+  disposition: captured
+  req_id: REQ-F-047
+- rule_id: 0f05920e_cfcd_489c_8399_572a6b50fefa
+  program: UNLDPADB
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 12c293bf_fcbc_494a_af5a_8f1d8d5a7938
+  program: COPAUS0C
+  disposition: captured
+  req_id: REQ-F-007
+- rule_id: 12e9a32f_62d7_40eb_b2ad_298cefd6205a
+  program: UNLDGSAM
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 16b14fe2_da76_47cb_a82b_6a7d5f975bfe
+  program: UNLDPADB
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 16de1d96_d57a_4056_a758_7a64671072a6
+  program: UNLDGSAM
+  disposition: captured
+  req_id: REQ-N-004
+- rule_id: 1ba6ee3e_eced_4ce2_9d70_6613800ec613
+  program: COPAUS0C
+  disposition: captured
+  req_id: REQ-F-015
+- rule_id: 1dfa1979_9d9c_4b8f_9702_ff973260a544
+  program: COPAUS1C
+  disposition: captured
+  req_id: REQ-F-051
+- rule_id: 1fcdd6ed_d6b1_4d16_9264_289381dd0896
+  program: PAUDBUNL
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 20d614a0_fbc8_4452_aaad_d7bf23e7a989
+  program: COPAUS1C
+  disposition: captured
+  req_id: REQ-F-053
+- rule_id: 21137573_6ba8_430e_a7a1_8d1f9d0eb370
+  program: COPAUS0C
+  disposition: captured
+  req_id: REQ-F-001
+- rule_id: 22129091_cb7d_44da_ab28_506cec149d29
+  program: DBUNLDGS
+  disposition: captured
+  req_id: REQ-F-091
+- rule_id: 26f23b7d_664d_4e75_9656_27f7116c3c2f
+  program: COPAUS1C
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: 2728f412_b310_481b_bfd6_315c2fd15de3
+  program: LOADPADB
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 290a6d1d_be53_417a_ac2e_30b59f758793
+  program: CBPAUP0J
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 2950c1a0_64ac_47ab_8b41_b6f82e2787ca
+  program: COPAUS0C
+  disposition: captured
+  req_id: REQ-F-009
+- rule_id: 29b6a777_20bf_4d8a_a4a9_917dbefd2e1e
+  program: PAUDBLOD
+  disposition: captured
+  req_id: REQ-F-076
+- rule_id: 2d89140d_7bdb_4b05_a615_f0ee0786f023
+  program: CBPAUP0C
+  disposition: captured
+  req_id: REQ-F-069
+- rule_id: 2e9b95d4_96ba_4cb4_b7ea_279def557b48
+  program: COPAUS0C
+  disposition: captured
+  req_id: REQ-F-024
+- rule_id: 2f6c943d_09a6_48b5_b2a8_d577e9ab177e
+  program: CBPAUP0C
+  disposition: captured
+  req_id: REQ-F-069
+- rule_id: 3037699c_0ea8_43b9_8e5e_a3cc7f0ec04f
+  program: COPAUS1C
+  disposition: captured
+  req_id: REQ-F-051
+- rule_id: 322bc880_a987_429b_a458_ccbc479e6601
+  program: PAUDBUNL
+  disposition: captured
+  req_id: REQ-F-098
+- rule_id: 34065ab0_ed2d_499a_a930_f73f907ad181
+  program: COPAUS2C
+  disposition: captured
+  req_id: REQ-F-033
+- rule_id: 348bc067_0379_4b16_9b69_ce9c024eedd7
+  program: UNLDPADB
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 35d95999_7f98_4dd0_b564_bfbbeb86ac69
+  program: DBUNLDGS
+  disposition: captured
+  req_id: REQ-F-087
+- rule_id: 36343e15_dbf0_48b7_9015_6bfed344e52e
+  program: CBPAUP0C
+  disposition: captured
+  req_id: REQ-F-067
+- rule_id: 3c2a0c71_440c_42e7_bf87_86853e241b9e
+  program: COPAUS0C
+  disposition: captured
+  req_id: REQ-F-010
+- rule_id: 3ef4bed6_3f2c_4311_9e24_14c504d72e27
+  program: COPAUS1C
+  disposition: captured
+  req_id: REQ-F-042
+- rule_id: 3fa59d5b_b273_43f2_8a18_d28eafaa890a
+  program: COPAUS2C
+  disposition: captured
+  req_id: REQ-F-038
+- rule_id: 3ff7babf_cab8_410a_9604_6ea9f41c6487
+  program: COPAUS0C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 411329b7_c3a2_4164_9d15_bb7f07fcb8ec
+  program: UNLDGSAM
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 43c1612d_096c_45b7_b63e_ee79d8f2e6b7
+  program: COPAUS1C
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: 43e1fe7d_f28a_44b8_b730_d72dcd2c35e0
+  program: PAUDBUNL
+  disposition: captured
+  req_id: REQ-F-093
+- rule_id: 4479905a_a866_4c8f_9dc0_4de7becdcdd2
+  program: COPAUS1C
+  disposition: captured
+  req_id: REQ-F-024
+- rule_id: 48eff514_78f7_446a_bf3d_6b3c674ce7c5
+  program: COPAUS1C
+  disposition: captured
+  req_id: REQ-F-053
+- rule_id: 4bbd2298_1470_412f_a32c_9bf4343d409f
+  program: UNLDGSAM
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 50859147_be0f_4962_a8f6_3c8518ce26d3
+  program: COPAUS0C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 509fd862_86aa_4cbf_8672_1991eae24f4f
+  program: CBPAUP0J
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 53160297_fb9c_49a6_b8f3_d716ee2f1bb7
+  program: LOADPADB
+  disposition: captured
+  req_id: REQ-F-072
+- rule_id: 54edc7ae_ba4a_4280_b34e_f1923ca4443c
+  program: PAUDBUNL
+  disposition: captured
+  req_id: REQ-F-090
+- rule_id: 555b2608_6537_4498_8d28_f9bbd8152d8b
+  program: COPAUS1C
+  disposition: not_applicable
+  reason: '[Pattern-classified] CICS/BMS platform mechanics'
+- rule_id: 5816befe_59c3_43e7_80d5_66a1bdacd9a3
+  program: UNLDGSAM
+  disposition: captured
+  req_id: REQ-N-004
+- rule_id: 5b71725b_1e7a_469d_9132_fcac40cdac7a
+  program: PAUDBUNL
+  disposition: captured
+  req_id: REQ-F-094
+- rule_id: 5be719e7_1d54_43a4_9b6c_23a5f9a4d78c
+  program: COPAUS2C
+  disposition: captured
+  req_id: REQ-F-031
+- rule_id: 5c795b24_8429_4a86_9012_3924a1690e58
+  program: PAUDBLOD
+  disposition: captured
+  req_id: REQ-F-071
+- rule_id: 5d896fdb_4eea_44cd_ae9c_09de9d0b0ad1
+  program: CBPAUP0C
+  disposition: captured
+  req_id: REQ-F-069
+- rule_id: 618f4905_fe2d_472e_93cb_16a98a432dd8
+  program: PAUDBLOD
+  disposition: captured
+  req_id: REQ-F-076
+- rule_id: 65a224ba_7388_41ac_a832_e1ce659a6688
+  program: PAUDBUNL
+  disposition: captured
+  req_id: REQ-F-094
+- rule_id: 66293849_cf6f_48cd_b4ee_d265a3a7bf3b
+  program: COPAUS0C
+  disposition: captured
+  req_id: REQ-F-008
+- rule_id: 679dac3b_1e75_446f_b662_ba5eb16141c4
+  program: PAUDBUNL
+  disposition: captured
+  req_id: REQ-F-090
+- rule_id: 68b3776b_99f1_4e00_8951_117610ab907d
+  program: COPAUS0C
+  disposition: captured
+  req_id: REQ-F-018
+- rule_id: 68f28204_d03a_41e0_b978_58b7f9105f0a
+  program: LOADPADB
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 69f1c101_60ea_4755_b8cb_a0b76d3517e6
+  program: COPAUS2C
+  disposition: captured
+  req_id: REQ-F-027
+- rule_id: 6a340b8f_869c_4a8f_afb0_dc276a2775e6
+  program: COPAUS0C
+  disposition: captured
+  req_id: REQ-F-018
+- rule_id: 6d00accf_a691_4567_a190_01d80dcf67f2
+  program: CBPAUP0C
+  disposition: captured
+  req_id: REQ-F-065
+- rule_id: 6d468d64_9253_4def_84c5_9badb213dc37
+  program: UNLDGSAM
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 6e01220a_e487_4e2d_90d8_5ae54362fe17
+  program: COPAUS0C
+  disposition: captured
+  req_id: REQ-F-003
+- rule_id: 6ea3c52d_44d3_4418_8f5b_dc585d60d551
+  program: CBPAUP0C
+  disposition: captured
+  req_id: REQ-F-068
+- rule_id: 71210bf8_d8a2_44a4_a396_01de4cafd124
+  program: COPAUS0C
+  disposition: not_applicable
+  reason: '[Pattern-classified] CICS/BMS platform mechanics'
+- rule_id: 717900eb_40f8_47b6_8cc9_f722fd5df587
+  program: PAUDBLOD
+  disposition: captured
+  req_id: REQ-F-076
+- rule_id: 71debe2c_3edc_4fe6_9ba3_f0cdfb8b47b3
+  program: COPAUS0C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 747a7e9a_3a3a_440f_a937_89fab9819398
+  program: COPAUS1C
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: 76687055_5641_4274_87a4_ada270b17d6b
+  program: COPAUS2C
+  disposition: captured
+  req_id: REQ-F-030
+- rule_id: 76dc34b0_d199_4436_af2e_2c9661ccc9d0
+  program: UNLDPADB
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 78d1b56c_5b23_4e6b_a3b6_90bec04bdb5a
+  program: DBUNLDGS
+  disposition: captured
+  req_id: REQ-F-093
+- rule_id: 7ce67b86_f0cb_4619_919c_b4d59ab49a83
+  program: COPAUS0C
+  disposition: captured
+  req_id: REQ-F-006
+- rule_id: 7e0fbfc6_4174_4a50_b6d8_b40565c03e08
+  program: CBPAUP0J
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 7efb05ce_b6cb_44f9_b630_dc303e367815
+  program: PAUDBLOD
+  disposition: captured
+  req_id: REQ-F-072
+- rule_id: 887d3244_cb1e_44d8_9996_415d92042d97
+  program: COPAUS2C
+  disposition: captured
+  req_id: REQ-F-025
+- rule_id: 89b469bc_4c74_4ed3_9c09_fb3bc2403c14
+  program: DBUNLDGS
+  disposition: captured
+  req_id: REQ-F-086
+- rule_id: 918a2404_52d4_42b5_a1bd_1f26200edd39
+  program: COPAUS0C
+  disposition: captured
+  req_id: REQ-F-020
+- rule_id: 92d9f063_3ed8_4ab8_8c19_5715e528a99d
+  program: PAUDBUNL
+  disposition: captured
+  req_id: REQ-F-098
+- rule_id: 941192c6_1c8c_49a2_b0e8_0645816304b8
+  program: LOADPADB
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 9433dbdf_587f_43fd_b930_e2c604cbf25b
+  program: COPAUS1C
+  disposition: captured
+  req_id: REQ-F-044
+- rule_id: 94e9481a_ae37_46ba_97fa_68cb695caf38
+  program: COPAUS0C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 98243727_d8a3_4048_9852_3c7a70115021
+  program: COPAUS2C
+  disposition: captured
+  req_id: REQ-F-036
+- rule_id: 987af922_63e4_4262_94fb_2534ee5248e5
+  program: COPAUS0C
+  disposition: captured
+  req_id: REQ-F-005
+- rule_id: 98d31683_f6a9_41ce_873b_f32967b823e7
+  program: CBPAUP0C
+  disposition: captured
+  req_id: REQ-F-069
+- rule_id: 9ac8e841_b29e_4024_99e2_876409e3c099
+  program: COPAUS0C
+  disposition: not_applicable
+  reason: '[Pattern-classified] CICS/BMS platform mechanics'
+- rule_id: a2080414_e447_4895_9434_d8276e00c92e
+  program: COPAUS0C
+  disposition: captured
+  req_id: REQ-F-021
+- rule_id: a4a9bfa8_4dd9_4e5d_8d4e_de87f3f1058b
+  program: PAUDBLOD
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: a54915d5_47f8_4ce1_937d_ef08357c7f27
+  program: PAUDBUNL
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: a7681f83_b345_4fde_890e_9f6a8c925210
+  program: COPAUS0C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: a97033dc_a1f8_4b84_9b7f_4f57fa0add4f
+  program: COPAUS1C
+  disposition: captured
+  req_id: REQ-F-049
+- rule_id: ab4239b7_2108_4081_a970_0b4df906feb5
+  program: COPAUS1C
+  disposition: captured
+  req_id: REQ-F-046
+- rule_id: ab499e6e_d34d_4b5c_8179_6d88a009d07a
+  program: COPAUS0C
+  disposition: captured
+  req_id: REQ-F-014
+- rule_id: ac48fcfd_9da6_4245_8098_3a2e156206ba
+  program: DBUNLDGS
+  disposition: captured
+  req_id: REQ-F-093
+- rule_id: af1324ed_6fdc_4aca_a7be_cfafc09ef1f7
+  program: UNLDGSAM
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: b057f164_6e88_4b33_9b23_f45a73b3d46b
+  program: UNLDPADB
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: b0ba98d4_d78e_4509_b128_9e1899f36ab5
+  program: UNLDGSAM
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: b46ff3cc_d887_4e3e_9159_c57ab32760b2
+  program: COPAUS2C
+  disposition: captured
+  req_id: REQ-F-039
+- rule_id: ba4c002a_4996_4db1_89ef_abf1efc7aebe
+  program: COPAUS0C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: bb14f805_0142_441b_a408_a943e20119a3
+  program: PAUDBUNL
+  disposition: captured
+  req_id: REQ-F-092
+- rule_id: bbbf2550_0fc2_499d_863e_f3de1c83d831
+  program: CBPAUP0C
+  disposition: captured
+  req_id: REQ-F-061
+- rule_id: bf9b6ad8_ada4_4891_bab6_5b2b98c32830
+  program: COPAUS1C
+  disposition: not_applicable
+  reason: '[Pattern-classified] CICS/BMS platform mechanics'
+- rule_id: c0122fd3_f48e_4307_a37a_5688dd249f2f
+  program: CBPAUP0C
+  disposition: captured
+  req_id: REQ-F-062
+- rule_id: c1b4ef9d_5c21_4226_bd71_fe8fe64a2f47
+  program: COPAUS0C
+  disposition: captured
+  req_id: REQ-F-001
+- rule_id: c219f2f4_7c9b_4be3_a9b4_2b3ee841eb98
+  program: PAUDBUNL
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: c27dce7c_80ef_4189_a704_9ab1e190021b
+  program: UNLDPADB
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: c58b37bb_354c_46bd_b5fb_712f2530cbdd
+  program: LOADPADB
+  disposition: captured
+  req_id: REQ-F-075
+- rule_id: c5bae6e9_94ed_4461_bd86_61b9765ddce2
+  program: COPAUS2C
+  disposition: captured
+  req_id: REQ-F-032
+- rule_id: c7fcec5c_23f7_49cb_8bc2_523a3f31418a
+  program: COPAUS1C
+  disposition: captured
+  req_id: REQ-F-052
+- rule_id: c9693b7e_fa4d_4290_b1d1_bf06e2edaa2b
+  program: COPAUS1C
+  disposition: captured
+  req_id: REQ-F-053
+- rule_id: ca2513d0_72dc_4a8f_9b7b_9b8246594437
+  program: COPAUS0C
+  disposition: not_applicable
+  reason: '[Pattern-classified] CICS/BMS platform mechanics'
+- rule_id: cc2e00fc_de71_49d5_8cce_effde2ffb57f
+  program: COPAUS1C
+  disposition: captured
+  req_id: REQ-F-040
+- rule_id: d0110ffd_6412_493d_90c7_e46acca7de2c
+  program: COPAUS2C
+  disposition: captured
+  req_id: REQ-F-037
+- rule_id: d1fdeb3b_80d9_4b96_9e32_3eb5b643cc3c
+  program: COPAUS0C
+  disposition: captured
+  req_id: REQ-F-004
+- rule_id: d2493e5a_34ad_4671_ab27_4d7791c31304
+  program: CBPAUP0C
+  disposition: captured
+  req_id: REQ-F-069
+- rule_id: d2c74c00_107c_4d0f_a57d_2e388d291c80
+  program: COPAUS1C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: d310f101_2a01_4528_9586_79e966fd1fda
+  program: DBUNLDGS
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: d346a53c_e762_420d_9fcb_5fd27f2897b4
+  program: COPAUS2C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: d362b088_d802_40c3_abe0_c23decb75942
+  program: COPAUS0C
+  disposition: captured
+  req_id: REQ-F-023
+- rule_id: d430577d_b7c1_424e_aa3d_661bd730b410
+  program: COPAUS0C
+  disposition: captured
+  req_id: REQ-F-016
+- rule_id: d4362b4a_5865_42e2_88ef_68f4a7e9ab14
+  program: DBUNLDGS
+  disposition: captured
+  req_id: REQ-F-094
+- rule_id: d74ef2de_f48f_41f5_904b_5daaedd93273
+  program: CBPAUP0J
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: d96abde3_872d_4466_aa49_d7970a3bd752
+  program: COPAUS2C
+  disposition: captured
+  req_id: REQ-F-028
+- rule_id: db0af111_cb4a_4ef7_995b_3c0bae5b241a
+  program: PAUDBLOD
+  disposition: captured
+  req_id: REQ-F-072
+- rule_id: ea0f135f_2696_4dac_b2af_06ebe3b3131a
+  program: COPAUS0C
+  disposition: captured
+  req_id: REQ-F-016
+- rule_id: ed8e55b6_b331_4d0b_8369_2518b1e15149
+  program: LOADPADB
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: ef058f3d_bc95_4ec1_8dd9_f8d76c2cce71
+  program: COPAUS0C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: f197c559_d558_4783_af9f_c974cc6a86c7
+  program: COPAUS1C
+  disposition: captured
+  req_id: REQ-N-001
+- rule_id: f231259c_bab6_475f_9cf6_fea9170f240f
+  program: COPAUS2C
+  disposition: captured
+  req_id: REQ-F-035
+- rule_id: f2b8d289_c10d_4af5_9824_54840181ba7f
+  program: COPAUS0C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: f3a257b6_ee16_4a46_915d_766695916fcb
+  program: COPAUS0C
+  disposition: captured
+  req_id: REQ-F-002
+- rule_id: f4185390_645c_481d_8a75_69eb7f54dbc8
+  program: COPAUS0C
+  disposition: not_applicable
+  reason: '[Pattern-classified] CICS/BMS platform mechanics'
+- rule_id: f462b0fa_67de_450c_90ab_031eb5e2a0a9
+  program: COPAUS2C
+  disposition: captured
+  req_id: REQ-F-034
+- rule_id: f4d99341_0a87_4753_bdae_c60b6c1c9dfe
+  program: CBPAUP0J
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: f696d47f_dee4_4f80_81d9_fecd497dd181
+  program: CBPAUP0C
+  disposition: captured
+  req_id: REQ-F-061
+- rule_id: f9def316_1252_4f1d_a6c2_abdbb3a2de2c
+  program: PAUDBUNL
+  disposition: captured
+  req_id: REQ-F-092
+- rule_id: fd3a7dd2_fe12_4e5b_8ab9_b083d6ae8ea3
+  program: DBUNLDGS
+  disposition: captured
+  req_id: REQ-F-092
+requirements:
+- req_id: REQ-F-001
+  rule_ids:
+  - 21137573_6ba8_430e_a7a1_8d1f9d0eb370
+  - c1b4ef9d_5c21_4226_bd71_fe8fe64a2f47
+- req_id: REQ-F-002
+  rule_ids:
+  - f3a257b6_ee16_4a46_915d_766695916fcb
+- req_id: REQ-F-003
+  rule_ids:
+  - 6e01220a_e487_4e2d_90d8_5ae54362fe17
+- req_id: REQ-F-004
+  rule_ids:
+  - d1fdeb3b_80d9_4b96_9e32_3eb5b643cc3c
+- req_id: REQ-F-005
+  rule_ids:
+  - 987af922_63e4_4262_94fb_2534ee5248e5
+- req_id: REQ-F-006
+  rule_ids:
+  - 7ce67b86_f0cb_4619_919c_b4d59ab49a83
+- req_id: REQ-F-007
+  rule_ids:
+  - 12c293bf_fcbc_494a_af5a_8f1d8d5a7938
+- req_id: REQ-F-008
+  rule_ids:
+  - 66293849_cf6f_48cd_b4ee_d265a3a7bf3b
+- req_id: REQ-F-009
+  rule_ids:
+  - 2950c1a0_64ac_47ab_8b41_b6f82e2787ca
+- req_id: REQ-F-010
+  rule_ids:
+  - 3c2a0c71_440c_42e7_bf87_86853e241b9e
+- req_id: REQ-F-014
+  rule_ids:
+  - ab499e6e_d34d_4b5c_8179_6d88a009d07a
+- req_id: REQ-F-015
+  rule_ids:
+  - 1ba6ee3e_eced_4ce2_9d70_6613800ec613
+- req_id: REQ-F-016
+  rule_ids:
+  - d430577d_b7c1_424e_aa3d_661bd730b410
+  - ea0f135f_2696_4dac_b2af_06ebe3b3131a
+- req_id: REQ-F-018
+  rule_ids:
+  - 68b3776b_99f1_4e00_8951_117610ab907d
+  - 6a340b8f_869c_4a8f_afb0_dc276a2775e6
+- req_id: REQ-F-020
+  rule_ids:
+  - 918a2404_52d4_42b5_a1bd_1f26200edd39
+- req_id: REQ-F-021
+  rule_ids:
+  - a2080414_e447_4895_9434_d8276e00c92e
+- req_id: REQ-F-022
+  rule_ids:
+  - 0aa80a5f_32ac_4d6b_b702_9fae1e8bf66e
+- req_id: REQ-F-023
+  rule_ids:
+  - d362b088_d802_40c3_abe0_c23decb75942
+- req_id: REQ-F-024
+  rule_ids:
+  - 2e9b95d4_96ba_4cb4_b7ea_279def557b48
+  - 4479905a_a866_4c8f_9dc0_4de7becdcdd2
+- req_id: REQ-F-025
+  rule_ids:
+  - 887d3244_cb1e_44d8_9996_415d92042d97
+- req_id: REQ-F-026
+  rule_ids:
+  - 0d8de7f0_fa35_436d_af0a_aba6dda07d5b
+- req_id: REQ-F-027
+  rule_ids:
+  - 69f1c101_60ea_4755_b8cb_a0b76d3517e6
+- req_id: REQ-F-028
+  rule_ids:
+  - d96abde3_872d_4466_aa49_d7970a3bd752
+- req_id: REQ-F-029
+  rule_ids:
+  - 03df07d8_7abc_43a3_a0ed_4cb4346e80d1
+- req_id: REQ-F-030
+  rule_ids:
+  - 76687055_5641_4274_87a4_ada270b17d6b
+- req_id: REQ-F-031
+  rule_ids:
+  - 5be719e7_1d54_43a4_9b6c_23a5f9a4d78c
+- req_id: REQ-F-032
+  rule_ids:
+  - c5bae6e9_94ed_4461_bd86_61b9765ddce2
+- req_id: REQ-F-033
+  rule_ids:
+  - 34065ab0_ed2d_499a_a930_f73f907ad181
+- req_id: REQ-F-034
+  rule_ids:
+  - f462b0fa_67de_450c_90ab_031eb5e2a0a9
+- req_id: REQ-F-035
+  rule_ids:
+  - f231259c_bab6_475f_9cf6_fea9170f240f
+- req_id: REQ-F-036
+  rule_ids:
+  - 98243727_d8a3_4048_9852_3c7a70115021
+- req_id: REQ-F-037
+  rule_ids:
+  - d0110ffd_6412_493d_90c7_e46acca7de2c
+- req_id: REQ-F-038
+  rule_ids:
+  - 3fa59d5b_b273_43f2_8a18_d28eafaa890a
+- req_id: REQ-F-039
+  rule_ids:
+  - b46ff3cc_d887_4e3e_9159_c57ab32760b2
+- req_id: REQ-F-040
+  rule_ids:
+  - cc2e00fc_de71_49d5_8cce_effde2ffb57f
+- req_id: REQ-F-042
+  rule_ids:
+  - 3ef4bed6_3f2c_4311_9e24_14c504d72e27
+- req_id: REQ-F-044
+  rule_ids:
+  - 9433dbdf_587f_43fd_b930_e2c604cbf25b
+- req_id: REQ-F-046
+  rule_ids:
+  - ab4239b7_2108_4081_a970_0b4df906feb5
+  - 01664484_08b9_48b3_b098_a63949801024
+- req_id: REQ-F-047
+  rule_ids:
+  - 0ef563b7_55a2_4d1b_b091_265ae2f9cbb0
+- req_id: REQ-F-049
+  rule_ids:
+  - a97033dc_a1f8_4b84_9b7f_4f57fa0add4f
+- req_id: REQ-F-051
+  rule_ids:
+  - 3037699c_0ea8_43b9_8e5e_a3cc7f0ec04f
+  - 1dfa1979_9d9c_4b8f_9702_ff973260a544
+- req_id: REQ-F-052
+  rule_ids:
+  - c7fcec5c_23f7_49cb_8bc2_523a3f31418a
+- req_id: REQ-F-053
+  rule_ids:
+  - 48eff514_78f7_446a_bf3d_6b3c674ce7c5
+  - 20d614a0_fbc8_4452_aaad_d7bf23e7a989
+  - c9693b7e_fa4d_4290_b1d1_bf06e2edaa2b
+- req_id: REQ-F-061
+  rule_ids:
+  - bbbf2550_0fc2_499d_863e_f3de1c83d831
+  - f696d47f_dee4_4f80_81d9_fecd497dd181
+  - bbbf2550_0fc2_499d_863e_f3de1c83d831
+  - f696d47f_dee4_4f80_81d9_fecd497dd181
+- req_id: REQ-F-062
+  rule_ids:
+  - c0122fd3_f48e_4307_a37a_5688dd249f2f
+  - c0122fd3_f48e_4307_a37a_5688dd249f2f
+- req_id: REQ-F-065
+  rule_ids:
+  - 6d00accf_a691_4567_a190_01d80dcf67f2
+  - 6d00accf_a691_4567_a190_01d80dcf67f2
+- req_id: REQ-F-067
+  rule_ids:
+  - 36343e15_dbf0_48b7_9015_6bfed344e52e
+  - 36343e15_dbf0_48b7_9015_6bfed344e52e
+- req_id: REQ-F-068
+  rule_ids:
+  - 6ea3c52d_44d3_4418_8f5b_dc585d60d551
+  - 6ea3c52d_44d3_4418_8f5b_dc585d60d551
+- req_id: REQ-F-069
+  rule_ids:
+  - 2d89140d_7bdb_4b05_a615_f0ee0786f023
+  - 2f6c943d_09a6_48b5_b2a8_d577e9ab177e
+  - 2d89140d_7bdb_4b05_a615_f0ee0786f023
+  - 2f6c943d_09a6_48b5_b2a8_d577e9ab177e
+  - 5d896fdb_4eea_44cd_ae9c_09de9d0b0ad1
+  - 98d31683_f6a9_41ce_873b_f32967b823e7
+  - d2493e5a_34ad_4671_ab27_4d7791c31304
+- req_id: REQ-F-071
+  rule_ids:
+  - 5c795b24_8429_4a86_9012_3924a1690e58
+  - 5c795b24_8429_4a86_9012_3924a1690e58
+- req_id: REQ-F-072
+  rule_ids:
+  - 53160297_fb9c_49a6_b8f3_d716ee2f1bb7
+  - 7efb05ce_b6cb_44f9_b630_dc303e367815
+  - db0af111_cb4a_4ef7_995b_3c0bae5b241a
+  - 7efb05ce_b6cb_44f9_b630_dc303e367815
+  - db0af111_cb4a_4ef7_995b_3c0bae5b241a
+- req_id: REQ-F-075
+  rule_ids:
+  - c58b37bb_354c_46bd_b5fb_712f2530cbdd
+  - 051d90ee_2c75_4071_93a8_acd8a25cc241
+  - 051d90ee_2c75_4071_93a8_acd8a25cc241
+  - 717900eb_40f8_47b6_8cc9_f722fd5df587
+- req_id: REQ-F-076
+  rule_ids:
+  - 29b6a777_20bf_4d8a_a4a9_917dbefd2e1e
+  - 618f4905_fe2d_472e_93cb_16a98a432dd8
+  - 717900eb_40f8_47b6_8cc9_f722fd5df587
+  - 29b6a777_20bf_4d8a_a4a9_917dbefd2e1e
+  - 618f4905_fe2d_472e_93cb_16a98a432dd8
+- req_id: REQ-F-086
+  rule_ids:
+  - 89b469bc_4c74_4ed3_9c09_fb3bc2403c14
+- req_id: REQ-F-087
+  rule_ids:
+  - 35d95999_7f98_4dd0_b564_bfbbeb86ac69
+- req_id: REQ-F-090
+  rule_ids:
+  - 08a86a0c_97a5_46a5_910e_2ac70422b5a7
+  - 679dac3b_1e75_446f_b662_ba5eb16141c4
+  - 54edc7ae_ba4a_4280_b34e_f1923ca4443c
+- req_id: REQ-F-091
+  rule_ids:
+  - 22129091_cb7d_44da_ab28_506cec149d29
+  - 22129091_cb7d_44da_ab28_506cec149d29
+- req_id: REQ-F-092
+  rule_ids:
+  - fd3a7dd2_fe12_4e5b_8ab9_b083d6ae8ea3
+  - bb14f805_0142_441b_a408_a943e20119a3
+  - f9def316_1252_4f1d_a6c2_abdbb3a2de2c
+  - fd3a7dd2_fe12_4e5b_8ab9_b083d6ae8ea3
+  - bb14f805_0142_441b_a408_a943e20119a3
+  - f9def316_1252_4f1d_a6c2_abdbb3a2de2c
+- req_id: REQ-F-093
+  rule_ids:
+  - 78d1b56c_5b23_4e6b_a3b6_90bec04bdb5a
+  - ac48fcfd_9da6_4245_8098_3a2e156206ba
+  - 43e1fe7d_f28a_44b8_b730_d72dcd2c35e0
+  - 78d1b56c_5b23_4e6b_a3b6_90bec04bdb5a
+  - ac48fcfd_9da6_4245_8098_3a2e156206ba
+  - 43e1fe7d_f28a_44b8_b730_d72dcd2c35e0
+- req_id: REQ-F-094
+  rule_ids:
+  - 35d95999_7f98_4dd0_b564_bfbbeb86ac69
+  - d4362b4a_5865_42e2_88ef_68f4a7e9ab14
+  - 65a224ba_7388_41ac_a832_e1ce659a6688
+  - 5b71725b_1e7a_469d_9132_fcac40cdac7a
+  - d4362b4a_5865_42e2_88ef_68f4a7e9ab14
+  - 65a224ba_7388_41ac_a832_e1ce659a6688
+  - 5b71725b_1e7a_469d_9132_fcac40cdac7a
+- req_id: REQ-F-098
+  rule_ids:
+  - 89b469bc_4c74_4ed3_9c09_fb3bc2403c14
+  - 92d9f063_3ed8_4ab8_8c19_5715e528a99d
+  - 322bc880_a987_429b_a458_ccbc479e6601
+  - 92d9f063_3ed8_4ab8_8c19_5715e528a99d
+  - 322bc880_a987_429b_a458_ccbc479e6601
+- req_id: REQ-N-001
+  rule_ids:
+  - f197c559_d558_4783_af9f_c974cc6a86c7
+- req_id: REQ-N-003
+  rule_ids:
+  - 0d237da9_296b_46fb_89b8_9011f8cc9d15
+- req_id: REQ-N-004
+  rule_ids:
+  - 16de1d96_d57a_4056_a758_7a64671072a6
+  - 5816befe_59c3_43e7_80d5_66a1bdacd9a3

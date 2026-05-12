@@ -1,0 +1,305 @@
+function: SystemInfrastructureandTechnicalServices
+generated_at: '2026-05-06T22:09:28Z'
+summary:
+  total_rules: 52
+  captured: 36
+  not_applicable: 16
+rules:
+- rule_id: 00770068_f899_4d32_a039_ce68f274f8a5
+  program: CBADMCDJ
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 0241022e_bf48_4d00_866b_2f5129a0ccca
+  program: CLOSEFIL
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 04f39b0e_58e0_42e3_bff5_efebb0cf4979
+  program: IMSMQCMP
+  disposition: captured
+  req_id: REQ-F-030
+- rule_id: 0580dfee_2e7f_415f_acc2_7ce969f716bd
+  program: OPENFIL
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: 0ac307fc_de4f_4271_a95c_78108cb9c8ab
+  program: CBADMCDJ
+  disposition: captured
+  req_id: REQ-F-012
+- rule_id: 13d233a6_e876_4f2b_a8a5_327dd68925f1
+  program: IMSMQCMP
+  disposition: not_applicable
+  reason: '[Pattern-classified] CICS/BMS platform mechanics'
+- rule_id: 154a27d6_9307_4e8c_b188_73ab12848d66
+  program: OPENFIL
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: 1b63d6f7_71dd_4d8f_892a_58e1758607e3
+  program: FTPJCL
+  disposition: captured
+  req_id: REQ-F-029
+- rule_id: 227f9201_cd66_46a1_bd58_7ac1943a26df
+  program: BMSCMP
+  disposition: captured
+  req_id: REQ-F-005
+- rule_id: 238849e1_3074_476e_9a4e_c97949c1df76
+  program: CBADMCDJ
+  disposition: captured
+  req_id: REQ-F-009
+- rule_id: 242c734c_ff1b_4c40_bf6f_3358134e01a1
+  program: CICCMP
+  disposition: captured
+  req_id: REQ-F-017
+- rule_id: 2643e7a9_6de1_48bd_9b8e_edfc1a6f503d
+  program: CBADMCDJ
+  disposition: captured
+  req_id: REQ-F-006
+- rule_id: 26e5723b_4289_4949_b6ea_e9964bcc2aa8
+  program: CLOSEFIL
+  disposition: captured
+  req_id: REQ-F-023
+- rule_id: 2a5bc13f_f1c2_41ef_894c_3a4419055028
+  program: FTPJCL
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 3447390a_69ec_4eec_9e42_16985a27086f
+  program: OPENFIL
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: 387ae4e5_4f80_484d_bd4f_469bd71c0401
+  program: INTRDRJ1
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 44f6d4bf_6dd0_4dd4_915d_5212f8aef196
+  program: BATCMP
+  disposition: captured
+  req_id: REQ-F-001
+- rule_id: 45a3760a_5752_45eb_8e0f_37f68ae1e41e
+  program: CBADMCDJ
+  disposition: captured
+  req_id: REQ-F-013
+- rule_id: 52cf9f57_4e8f_4b97_b07a_23fa63abc7e4
+  program: COBSWAIT
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 5595d2da_ff54_45de_93de_8f2301d9e36e
+  program: CBADMCDJ
+  disposition: captured
+  req_id: REQ-F-011
+- rule_id: 55c2dba6_bab4_4dd5_b39b_dcb1d4009572
+  program: BMSCMP
+  disposition: captured
+  req_id: REQ-F-004
+- rule_id: 56162472_53f7_4e6a_899a_2619e622c9cf
+  program: CBADMCDJ
+  disposition: captured
+  req_id: REQ-F-008
+- rule_id: 561a0f01_a49e_48dd_bd85_e642e6503648
+  program: CBADMCDJ
+  disposition: captured
+  req_id: REQ-F-012
+- rule_id: 699d4f45_8309_4710_9ac3_0a504152a0b3
+  program: COBSWAIT
+  disposition: captured
+  req_id: REQ-F-041
+- rule_id: 69c76d74_bccb_4021_8fe1_35a69a19b658
+  program: IMSMQCMP
+  disposition: captured
+  req_id: REQ-F-031
+- rule_id: 7751fdf5_df26_48d3_8a36_814289004e53
+  program: FTPJCL
+  disposition: captured
+  req_id: REQ-F-028
+- rule_id: 787dfb7e_f31a_4859_9a7f_3784bb3968c1
+  program: CBADMCDJ
+  disposition: captured
+  req_id: REQ-F-007
+- rule_id: 78e16a39_d74f_40c3_b8e3_ba3db30c8654
+  program: CBADMCDJ
+  disposition: captured
+  req_id: REQ-F-008
+- rule_id: 81643af8_3716_4d05_ab5c_a52f4739a2b4
+  program: IMSMQCMP
+  disposition: captured
+  req_id: REQ-F-032
+- rule_id: 83ca7752_d4d9_41b2_aad8_56971ee12be2
+  program: FTPJCL
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 8568a0bc_530c_4f37_adb8_ce24b28d9408
+  program: OPENFIL
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: 898bb3f5_3026_4d44_9809_7a7826757ae4
+  program: IMSMQCMP
+  disposition: captured
+  req_id: REQ-F-033
+- rule_id: 950b607c_f31d_4e8b_bdc1_89080664d2b4
+  program: COBSWAIT
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: a03d044f_247a_4b43_a977_056fae24345d
+  program: IMSMQCMP
+  disposition: captured
+  req_id: REQ-F-032
+- rule_id: a4e50c62_edb7_4fac_a5ab_e1c559938ba8
+  program: BMSCMP
+  disposition: captured
+  req_id: REQ-F-004
+- rule_id: a8711dde_9ef8_4bde_b816_9ea1400443af
+  program: FTPJCL
+  disposition: captured
+  req_id: REQ-F-026
+- rule_id: aa663678_2860_4688_a2a2_31e3f3662c15
+  program: CBADMCDJ
+  disposition: captured
+  req_id: REQ-F-010
+- rule_id: ad3c172c_b24b_45a3_b122_857afe6deefe
+  program: CBADMCDJ
+  disposition: captured
+  req_id: REQ-F-009
+- rule_id: ae69d9a3_f98d_4baa_ab1d_7f81dfe0e73d
+  program: WAITSTEP
+  disposition: captured
+  req_id: REQ-F-040
+- rule_id: ae6d5ee0_de74_46ad_9028_eb45883fb092
+  program: CBADMCDJ
+  disposition: captured
+  req_id: REQ-F-013
+- rule_id: b6b9c717_f5f7_4f61_a1ae_85ffe17c08a7
+  program: CBADMCDJ
+  disposition: captured
+  req_id: REQ-F-010
+- rule_id: c064e9fe_50c7_44f1_9bd9_d2ada6f573d1
+  program: BATCMP
+  disposition: captured
+  req_id: REQ-F-002
+- rule_id: cf32a808_1e87_4722_8a68_0313dd24c5fd
+  program: CBADMCDJ
+  disposition: captured
+  req_id: REQ-F-014
+- rule_id: d355cbf1_5cfd_4015_95f4_ca48d0912aa3
+  program: CICCMP
+  disposition: captured
+  req_id: REQ-F-016
+- rule_id: d71e60c7_12a3_47e7_ada6_e8f7c8c4c380
+  program: OPENFIL
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: d8a379b0_7400_4ae8_8291_03328599c1b1
+  program: CBADMCDJ
+  disposition: captured
+  req_id: REQ-F-011
+- rule_id: dd597899_6c7d_417f_b5ba_512a500cce4f
+  program: BMSCMP
+  disposition: not_applicable
+  reason: '[Pattern-classified] CICS/BMS platform mechanics'
+- rule_id: ddd6cd28_6175_4068_ab4e_aa9d6101cb7e
+  program: OPENFIL
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: ee8735bb_4f20_4935_ab59_17bccf43799c
+  program: CBADMCDJ
+  disposition: captured
+  req_id: REQ-F-015
+- rule_id: eebecd08_a334_4240_a75e_9cad9b390344
+  program: CICCMP
+  disposition: not_applicable
+  reason: '[Pattern-classified] CICS/BMS platform mechanics'
+- rule_id: fde9698c_cf9b_4ede_8ba0_330600dcc4f9
+  program: COBSWAIT
+  disposition: captured
+  req_id: REQ-F-040
+- rule_id: ffed9df2_a52f_484c_818a_c45b7b8446f8
+  program: CBADMCDJ
+  disposition: captured
+  req_id: REQ-F-007
+requirements:
+- req_id: REQ-F-001
+  rule_ids:
+  - 44f6d4bf_6dd0_4dd4_915d_5212f8aef196
+- req_id: REQ-F-002
+  rule_ids:
+  - c064e9fe_50c7_44f1_9bd9_d2ada6f573d1
+- req_id: REQ-F-004
+  rule_ids:
+  - 55c2dba6_bab4_4dd5_b39b_dcb1d4009572
+  - a4e50c62_edb7_4fac_a5ab_e1c559938ba8
+- req_id: REQ-F-005
+  rule_ids:
+  - 227f9201_cd66_46a1_bd58_7ac1943a26df
+- req_id: REQ-F-006
+  rule_ids:
+  - 2643e7a9_6de1_48bd_9b8e_edfc1a6f503d
+- req_id: REQ-F-007
+  rule_ids:
+  - 787dfb7e_f31a_4859_9a7f_3784bb3968c1
+  - ffed9df2_a52f_484c_818a_c45b7b8446f8
+- req_id: REQ-F-008
+  rule_ids:
+  - 56162472_53f7_4e6a_899a_2619e622c9cf
+  - 78e16a39_d74f_40c3_b8e3_ba3db30c8654
+- req_id: REQ-F-009
+  rule_ids:
+  - 238849e1_3074_476e_9a4e_c97949c1df76
+  - ad3c172c_b24b_45a3_b122_857afe6deefe
+- req_id: REQ-F-010
+  rule_ids:
+  - aa663678_2860_4688_a2a2_31e3f3662c15
+  - b6b9c717_f5f7_4f61_a1ae_85ffe17c08a7
+- req_id: REQ-F-011
+  rule_ids:
+  - 5595d2da_ff54_45de_93de_8f2301d9e36e
+  - d8a379b0_7400_4ae8_8291_03328599c1b1
+- req_id: REQ-F-012
+  rule_ids:
+  - 0ac307fc_de4f_4271_a95c_78108cb9c8ab
+  - 561a0f01_a49e_48dd_bd85_e642e6503648
+- req_id: REQ-F-013
+  rule_ids:
+  - 45a3760a_5752_45eb_8e0f_37f68ae1e41e
+  - ae6d5ee0_de74_46ad_9028_eb45883fb092
+- req_id: REQ-F-014
+  rule_ids:
+  - cf32a808_1e87_4722_8a68_0313dd24c5fd
+- req_id: REQ-F-015
+  rule_ids:
+  - ee8735bb_4f20_4935_ab59_17bccf43799c
+- req_id: REQ-F-016
+  rule_ids:
+  - d355cbf1_5cfd_4015_95f4_ca48d0912aa3
+- req_id: REQ-F-017
+  rule_ids:
+  - 242c734c_ff1b_4c40_bf6f_3358134e01a1
+- req_id: REQ-F-023
+  rule_ids:
+  - 26e5723b_4289_4949_b6ea_e9964bcc2aa8
+- req_id: REQ-F-026
+  rule_ids:
+  - a8711dde_9ef8_4bde_b816_9ea1400443af
+- req_id: REQ-F-028
+  rule_ids:
+  - 7751fdf5_df26_48d3_8a36_814289004e53
+- req_id: REQ-F-029
+  rule_ids:
+  - 1b63d6f7_71dd_4d8f_892a_58e1758607e3
+- req_id: REQ-F-030
+  rule_ids:
+  - 04f39b0e_58e0_42e3_bff5_efebb0cf4979
+- req_id: REQ-F-031
+  rule_ids:
+  - 69c76d74_bccb_4021_8fe1_35a69a19b658
+- req_id: REQ-F-032
+  rule_ids:
+  - 81643af8_3716_4d05_ab5c_a52f4739a2b4
+  - a03d044f_247a_4b43_a977_056fae24345d
+- req_id: REQ-F-033
+  rule_ids:
+  - 898bb3f5_3026_4d44_9809_7a7826757ae4
+- req_id: REQ-F-040
+  rule_ids:
+  - fde9698c_cf9b_4ede_8ba0_330600dcc4f9
+  - ae69d9a3_f98d_4baa_ab1d_7f81dfe0e73d
+- req_id: REQ-F-041
+  rule_ids:
+  - 699d4f45_8309_4710_9ac3_0a504152a0b3
+  - 699d4f45_8309_4710_9ac3_0a504152a0b3

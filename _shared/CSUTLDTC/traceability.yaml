@@ -1,0 +1,40 @@
+function: _shared/CSUTLDTC
+generated_at: '2026-05-06T22:07:06Z'
+summary:
+  total_rules: 5
+  captured: 4
+  not_applicable: 1
+rules:
+- rule_id: 84873a41_f594_4e5a_872d_cdf86c705a79
+  program: CSUTLDTC
+  disposition: captured
+  req_id: REQ-F-003
+- rule_id: 9867bc60_014f_4173_9c63_e6bbb4e5e904
+  program: CSUTLDTC
+  disposition: captured
+  req_id: REQ-F-004
+- rule_id: 9e29d1dc_8d45_496f_8f5e_a5ff08b971f8
+  program: CSUTLDTC
+  disposition: captured
+  req_id: REQ-F-014
+- rule_id: ad990bc7_a772_48de_8e1e_1781974637cf
+  program: CSUTLDTC
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: eca55d56_ddd7_427d_b1aa_dc6da72484c5
+  program: CSUTLDTC
+  disposition: captured
+  req_id: REQ-F-001
+requirements:
+- req_id: REQ-F-001
+  rule_ids:
+  - eca55d56_ddd7_427d_b1aa_dc6da72484c5
+- req_id: REQ-F-003
+  rule_ids:
+  - 84873a41_f594_4e5a_872d_cdf86c705a79
+- req_id: REQ-F-004
+  rule_ids:
+  - 9867bc60_014f_4173_9c63_e6bbb4e5e904
+- req_id: REQ-F-014
+  rule_ids:
+  - 9e29d1dc_8d45_496f_8f5e_a5ff08b971f8

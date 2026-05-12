@@ -1,0 +1,138 @@
+function: _shared/COSGN00C
+generated_at: '2026-05-06T22:07:14Z'
+summary:
+  total_rules: 24
+  captured: 16
+  not_applicable: 8
+rules:
+- rule_id: 00f3ac11_3e71_4b56_9460_01bb7f23fd95
+  program: COSGN00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: 04b6144d_6318_46ce_8579_b546c8fe0fda
+  program: COSGN00C
+  disposition: captured
+  req_id: REQ-F-013
+- rule_id: 08fb1277_c4e0_47a5_9965_36338d3c19d4
+  program: COSGN00C
+  disposition: captured
+  req_id: REQ-F-003
+- rule_id: 38a37c2f_d554_4dc2_86cf_611cd936d3e0
+  program: COSGN00C
+  disposition: captured
+  req_id: REQ-F-008
+- rule_id: 40488ff2_0bf8_4ced_b9f3_97a8308ad788
+  program: COSGN00C
+  disposition: captured
+  req_id: REQ-F-008
+- rule_id: 47f89e32_b39e_4384_be13_8ddf655e0117
+  program: COSGN00C
+  disposition: captured
+  req_id: REQ-F-001
+- rule_id: 65a60ffc_7ce5_471a_8c43_347e8d2f9826
+  program: COSGN00C
+  disposition: captured
+  req_id: REQ-F-007
+- rule_id: 86608143_1aba_48b8_8008_3809dd9560c4
+  program: COSGN00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: 8be0f3aa_e18b_4fae_8aa2_bf96170ec543
+  program: COSGN00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: a48fb22c_28de_454e_b770_60e0a220a9b2
+  program: COSGN00C
+  disposition: captured
+  req_id: REQ-F-008
+- rule_id: a56cd427_1849_4980_bd75_b59e176c2df0
+  program: COSGN00C
+  disposition: captured
+  req_id: REQ-F-014
+- rule_id: a62dff1a_cfd9_4487_a518_8829548b05e8
+  program: COSGN00C
+  disposition: captured
+  req_id: REQ-F-014
+- rule_id: b2ea2b71_9323_469b_aec8_954902457634
+  program: COSGN00C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: ba99225f_cd21_4a4e_8489_a4829b6a7b6a
+  program: COSGN00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: bb47b2a6_9f09_42d8_90f4_9a70516b1a9c
+  program: COSGN00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: c6e30fa7_c99e_4b7d_b04d_e2efdaa9326a
+  program: COSGN00C
+  disposition: captured
+  req_id: REQ-F-012
+- rule_id: c72fa82a_fedd_4846_bbba_b605b3e698e4
+  program: COSGN00C
+  disposition: captured
+  req_id: REQ-F-002
+- rule_id: cd588586_1882_4f4e_99c4_133635a5c641
+  program: COSGN00C
+  disposition: captured
+  req_id: REQ-F-007
+- rule_id: d037fded_c8b4_4953_90ad_de49a8f5aba9
+  program: COSGN00C
+  disposition: captured
+  req_id: REQ-F-004
+- rule_id: d0aeaaf1_ecac_4184_bd95_30c2978c456f
+  program: COSGN00C
+  disposition: captured
+  req_id: REQ-F-008
+- rule_id: d746485a_c572_4468_8eea_6f60ec30451d
+  program: COSGN00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: dba0d54a_115d_4caa_89d5_2b3b1f43cd64
+  program: COSGN00C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: e3f21da6_5479_44b8_8f9f_220471b80bab
+  program: COSGN00C
+  disposition: captured
+  req_id: REQ-F-003
+- rule_id: f56f4821_1b9f_4905_9818_3d517f132748
+  program: COSGN00C
+  disposition: captured
+  req_id: REQ-F-012
+requirements:
+- req_id: REQ-F-001
+  rule_ids:
+  - 47f89e32_b39e_4384_be13_8ddf655e0117
+- req_id: REQ-F-002
+  rule_ids:
+  - c72fa82a_fedd_4846_bbba_b605b3e698e4
+- req_id: REQ-F-003
+  rule_ids:
+  - 08fb1277_c4e0_47a5_9965_36338d3c19d4
+  - e3f21da6_5479_44b8_8f9f_220471b80bab
+- req_id: REQ-F-004
+  rule_ids:
+  - d037fded_c8b4_4953_90ad_de49a8f5aba9
+- req_id: REQ-F-007
+  rule_ids:
+  - cd588586_1882_4f4e_99c4_133635a5c641
+  - 65a60ffc_7ce5_471a_8c43_347e8d2f9826
+- req_id: REQ-F-008
+  rule_ids:
+  - 40488ff2_0bf8_4ced_b9f3_97a8308ad788
+  - a48fb22c_28de_454e_b770_60e0a220a9b2
+  - 38a37c2f_d554_4dc2_86cf_611cd936d3e0
+  - d0aeaaf1_ecac_4184_bd95_30c2978c456f
+- req_id: REQ-F-012
+  rule_ids:
+  - c6e30fa7_c99e_4b7d_b04d_e2efdaa9326a
+  - f56f4821_1b9f_4905_9818_3d517f132748
+- req_id: REQ-F-013
+  rule_ids:
+  - 04b6144d_6318_46ce_8579_b546c8fe0fda
+- req_id: REQ-F-014
+  rule_ids:
+  - a62dff1a_cfd9_4487_a518_8829548b05e8
+  - a56cd427_1849_4980_bd75_b59e176c2df0

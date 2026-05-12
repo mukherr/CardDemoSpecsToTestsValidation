@@ -1,0 +1,59 @@
+function: CustomerDataManagement
+generated_at: '2026-05-06T22:07:59Z'
+summary:
+  total_rules: 13
+  not_applicable: 13
+rules:
+- rule_id: 2cd1672c_59e8_4c55_95a1_68902f10bcb4
+  program: CUSTFILE
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: 4aa08308_6183_4783_8618_a6b7dbcca5a2
+  program: CBCUS01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: 4e43a56b_da0f_4667_9344_35dedde6b901
+  program: CBCUS01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: 56c12264_fa47_478a_81ba_4e862400d41e
+  program: CBCUS01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: 6d6c4a18_add3_4372_8da3_90e90c3ff875
+  program: CBCUS01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: 6e27ab6f_448d_42b0_bae9_3e89c85eb620
+  program: READCUST
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 7bb81b6b_199b_483f_bf0b_174e03793df5
+  program: CBCUS01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: 845795db_53ad_4f58_a9fd_2b0a339ddbd5
+  program: CBCUS01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: b715f570_2044_4659_b3b6_589d5f1909e7
+  program: CUSTFILE
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: bde71cd5_05e1_403c_8cb0_4a161dd53f6d
+  program: CUSTFILE
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: dfe55e96_9959_42e4_943b_05eaf6292610
+  program: CBCUS01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: e577dd52_6db9_4bd3_8811_939d32e70bd6
+  program: CUSTFILE
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: f153c5f3_38d1_4256_ac6d_99f4815bc77e
+  program: CUSTFILE
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+requirements: []

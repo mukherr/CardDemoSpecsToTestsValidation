@@ -1,0 +1,104 @@
+function: BillPaymentProcessing
+generated_at: '2026-05-06T22:08:06Z'
+summary:
+  total_rules: 18
+  captured: 8
+  not_applicable: 10
+rules:
+- rule_id: 00fef1a0_a8c8_498c_9dcc_949ebdbb8eac
+  program: COBIL00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 05673bbe_6d43_415f_b0f1_b704def9759b
+  program: COBIL00C
+  disposition: captured
+  req_id: REQ-F-001
+- rule_id: 086c9790_efca_4501_95bb_568453e5629e
+  program: COBIL00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 110a1ea2_8a27_4304_9f22_135ddfd72178
+  program: COBIL00C
+  disposition: captured
+  req_id: REQ-F-025
+- rule_id: 2200a34e_b6a2_43ce_bbce_3e2aea18b6ec
+  program: COBIL00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 484ee3f6_b111_4d10_b196_a1e0d8a3ffbd
+  program: COBIL00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 4bbad23e_7503_45df_80b7_945210c6bd38
+  program: COBIL00C
+  disposition: captured
+  req_id: REQ-F-024
+- rule_id: 6ff69f7b_17ad_433a_8029_44405266f3fa
+  program: COBIL00C
+  disposition: captured
+  req_id: REQ-F-026
+- rule_id: 7a54a60e_3046_46b6_99f4_36544a31f3b0
+  program: COBIL00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 7ac3634f_f2fe_4a9b_b840_7fec52514b80
+  program: COBIL00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 876a9c7d_2074_48f4_b5c4_cf74fd3adf84
+  program: COBIL00C
+  disposition: captured
+  req_id: REQ-F-012
+- rule_id: 8a0acf6f_b895_49f4_9c06_b0b165e0f88a
+  program: COBIL00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 8a79a38b_8b8a_424e_b9fc_dae5533b30ff
+  program: COBIL00C
+  disposition: captured
+  req_id: REQ-F-002
+- rule_id: 8f70053e_b83d_4214_b419_24a97031c1b8
+  program: COBIL00C
+  disposition: captured
+  req_id: REQ-F-008
+- rule_id: b20b59a8_6e29_48ff_8365_04ff1cf5a354
+  program: COBIL00C
+  disposition: captured
+  req_id: REQ-F-003
+- rule_id: c300674d_2cd4_4d81_9a21_f1c3bc267e16
+  program: COBIL00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: cfd80f9f_4c47_46a6_9557_8e869d532df2
+  program: COBIL00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: d6f16c1d_4d1a_4b07_ba69_be66ec51ea8c
+  program: COBIL00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+requirements:
+- req_id: REQ-F-001
+  rule_ids:
+  - 05673bbe_6d43_415f_b0f1_b704def9759b
+- req_id: REQ-F-002
+  rule_ids:
+  - 8a79a38b_8b8a_424e_b9fc_dae5533b30ff
+- req_id: REQ-F-003
+  rule_ids:
+  - b20b59a8_6e29_48ff_8365_04ff1cf5a354
+- req_id: REQ-F-008
+  rule_ids:
+  - 8f70053e_b83d_4214_b419_24a97031c1b8
+- req_id: REQ-F-012
+  rule_ids:
+  - 876a9c7d_2074_48f4_b5c4_cf74fd3adf84
+- req_id: REQ-F-024
+  rule_ids:
+  - 4bbad23e_7503_45df_80b7_945210c6bd38
+- req_id: REQ-F-025
+  rule_ids:
+  - 110a1ea2_8a27_4304_9f22_135ddfd72178
+- req_id: REQ-F-026
+  rule_ids:
+  - 6ff69f7b_17ad_433a_8029_44405266f3fa

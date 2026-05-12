@@ -1,0 +1,426 @@
+function: SystemAdministrationandNavigation
+generated_at: '2026-05-06T22:09:12Z'
+summary:
+  total_rules: 73
+  captured: 47
+  not_applicable: 26
+rules:
+- rule_id: 054d9c11_6b51_4bce_80a6_5840e0aad568
+  program: COADM01C
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: 0829dcdf_dbb0_4fc7_9d7d_132200449827
+  program: CODATE01
+  disposition: captured
+  req_id: REQ-F-018
+- rule_id: 0958c8f3_7569_451b_a434_6a4a7ae5c99a
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-046
+- rule_id: 096a9222_dc39_4bfc_97ba_bd59922522d9
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-043
+- rule_id: 147ee9a2_dc13_43f2_a29c_7aa497470c06
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-036
+- rule_id: 15c2b906_aa63_4d24_9f79_e7bc4e85d621
+  program: COADM01C
+  disposition: captured
+  req_id: REQ-F-006
+- rule_id: 2324f292_d51f_473e_9cdb_3d7c0ad488f5
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-041
+- rule_id: 236855e0_378c_4b44_b41e_9e3f9081a0b2
+  program: COMEN01C
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: 2856dee2_b23c_4ee9_a162_c31ea27c0cda
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-043
+- rule_id: 2c0b6aa7_47d9_47c1_abd7_cd0de319538e
+  program: COMEN01C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 2f62f287_682f_4f75_a14c_4cf93bd25638
+  program: COMEN01C
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: 300a44f3_0e9e_4024_b8e1_e2f24d7b334e
+  program: COMEN01C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 305cf3e9_8de1_4576_9ec5_af705d1ec303
+  program: COMEN01C
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: 372ca928_0a87_43d1_b302_34837347a303
+  program: CODATE01
+  disposition: captured
+  req_id: REQ-F-019
+- rule_id: 3bfb473c_d421_4e31_88fb_b565812ad1e9
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-036
+- rule_id: 453f76f2_a9c3_4a18_881e_f2f75e3434af
+  program: COADM01C
+  disposition: captured
+  req_id: REQ-F-011
+- rule_id: 462b5108_9637_4201_979e_488df47d29f0
+  program: COADM01C
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: 4a0099a8_298f_4580_a28d_3db3a84c0b2d
+  program: COADM01C
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: 4b8da631_a62b_43f1_9bc8_c64d6365fd6d
+  program: COADM01C
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: 4f294c74_39ba_4ef5_8cfc_8ea69b714670
+  program: COADM01C
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: 583adf59_aaac_4973_bc6f_302569389832
+  program: CODATE01
+  disposition: captured
+  req_id: REQ-F-030
+- rule_id: 59bbd586_ced0_48c3_aa44_45a4823355a3
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-032
+- rule_id: 5bff65e1_1641_4a12_9d45_51d29a36e98f
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-044
+- rule_id: 5e016bfb_dab1_4d64_b33f_f19abea91e92
+  program: COADM01C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 65320575_5cf4_4a7b_9465_05b94f00746f
+  program: COMEN01C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 660069d3_4d8e_4506_966a_299677df7855
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-043
+- rule_id: 6a2e4e39_f04b_47e4_8773_e6e43bfb38d9
+  program: COADM01C
+  disposition: captured
+  req_id: REQ-F-007
+- rule_id: 6a9f4601_3c9f_4c96_a4df_6052b2a476fd
+  program: COADM01C
+  disposition: captured
+  req_id: REQ-F-005
+- rule_id: 6b90a132_21e4_403e_8485_b830113991f0
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-038
+- rule_id: 6bd7915e_a547_4763_8418_6fa770c158f3
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-042
+- rule_id: 6dbfac37_fa3e_411c_876a_7de05942faf3
+  program: CODATE01
+  disposition: captured
+  req_id: REQ-F-021
+- rule_id: 6faab0e0_0195_437d_8cf8_39037fdca61b
+  program: COMEN01C
+  disposition: not_applicable
+  reason: '[Pattern-classified] CICS/BMS platform mechanics'
+- rule_id: 715861ca_a2f4_4144_8b4c_4c87b6c9bdba
+  program: COADM01C
+  disposition: captured
+  req_id: REQ-F-002
+- rule_id: 7161ae8a_e144_4dc9_b327_9286b4086259
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-045
+- rule_id: 71665ef0_4e41_4de9_8796_d57d6c6f03ca
+  program: COADM01C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 739c9c3d_5228_4569_aaea_48758dec6bce
+  program: CODATE01
+  disposition: captured
+  req_id: REQ-F-023
+- rule_id: 78292acf_7b8f_43bb_b4a8_23e4c8bac30e
+  program: CODATE01
+  disposition: captured
+  req_id: REQ-F-022
+- rule_id: 7bbe06e8_011e_4766_bc19_e958908d8a53
+  program: COADM01C
+  disposition: captured
+  req_id: REQ-F-003
+- rule_id: 7f07b7fb_9ee9_41d5_bd12_858d99c6a409
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-032
+- rule_id: 91a848a5_e2ed_4f9d_ace9_e469977627e8
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-038
+- rule_id: 98c20749_d11c_4e30_af01_f52e2b16f329
+  program: COADM01C
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: 98d5ed10_6496_493b_99c1_ec1bbf466593
+  program: CODATE01
+  disposition: captured
+  req_id: REQ-F-029
+- rule_id: 9e945f8a_651e_4685_82a8_d55e599ac6c2
+  program: CODATE01
+  disposition: captured
+  req_id: REQ-F-028
+- rule_id: a6e35d68_a6bc_4de2_971d_37ecadbf3edc
+  program: CODATE01
+  disposition: captured
+  req_id: REQ-F-020
+- rule_id: a83bdacb_770d_466c_a597_822ec0398983
+  program: COADM01C
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: aba1efa4_b75e_4d87_a026_bee40c9dcd27
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-038
+- rule_id: ad2fd418_60f6_4a41_9237_57df37812f57
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-041
+- rule_id: aedadf54_aaa6_4eeb_a2ec_0d5abb96511c
+  program: COADM01C
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: b5d535cd_730a_48f2_916e_ccfcd34bcafa
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-046
+- rule_id: ba3a0b6f_0412_4337_920d_32f42f8cccd7
+  program: CODATE01
+  disposition: captured
+  req_id: REQ-F-027
+- rule_id: bfa798be_b006_49a8_9f1b_44a413fb7ba4
+  program: CODATE01
+  disposition: captured
+  req_id: REQ-F-025
+- rule_id: c191ae76_0a3f_4091_a07e_8b58cf04f889
+  program: COADM01C
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: c4449370_ffc1_45cc_a5da_4ba1fae70d1d
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-042
+- rule_id: c4cc1bd0_35e6_450c_80fc_b8f46ce67d93
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-047
+- rule_id: c5962941_b69b_4b9b_8260_18b8e7cd2a7f
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-033
+- rule_id: c70b3a0d_0f74_4021_bca7_316a226be497
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-041
+- rule_id: cedeb7a9_ef39_4695_a0f4_0e6e0728a767
+  program: COADM01C
+  disposition: captured
+  req_id: REQ-F-013
+- rule_id: d20e21c1_94f4_408c_8c25_db7f26ea5f0b
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-035
+- rule_id: d33d8be2_01e1_440f_b212_0d2b5edba1e2
+  program: COMEN01C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: d6a7e0d2_a82e_4a24_ab40_5ca58185343c
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-037
+- rule_id: d85dd88e_657f_4c7e_8feb_caca812b8627
+  program: COMEN01C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: d870edbc_16d5_49a5_a158_f881b5d3850a
+  program: COADM01C
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: df0acc18_295a_4571_b97a_036e484db441
+  program: CODATE01
+  disposition: captured
+  req_id: REQ-F-026
+- rule_id: dff0e756_300f_4ce0_aa29_3b31365120f6
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-042
+- rule_id: e1b17e88_5306_4bbf_aa79_b7c4f9d383bd
+  program: COADM01C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: e392564d_c70c_4155_9c24_c7d1cdc9ce4c
+  program: COMEN01C
+  disposition: captured
+  req_id: REQ-F-034
+- rule_id: e3b888d9_f331_41db_8a7d_4a59f08a478f
+  program: CODATE01
+  disposition: captured
+  req_id: REQ-F-016
+- rule_id: e81c57b6_a998_417d_ba92_f04705d9a264
+  program: COADM01C
+  disposition: captured
+  req_id: REQ-F-008
+- rule_id: e9d03468_b831_4d0e_8450_2a860393467a
+  program: CODATE01
+  disposition: captured
+  req_id: REQ-F-024
+- rule_id: f367c084_1870_4e6f_84e4_55435290febe
+  program: COMEN01C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: f54e4852_68e8_43a8_80f6_ecf35a4d7e21
+  program: COADM01C
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: f8378add_8f28_4910_9b0b_8752aa875bb1
+  program: COMEN01C
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: f8ae4f1c_4e0e_4194_9d05_78b228dadaea
+  program: COADM01C
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+requirements:
+- req_id: REQ-F-002
+  rule_ids:
+  - 715861ca_a2f4_4144_8b4c_4c87b6c9bdba
+  - c6e30fa7_c99e_4b7d_b04d_e2efdaa9326a
+- req_id: REQ-F-003
+  rule_ids:
+  - 7bbe06e8_011e_4766_bc19_e958908d8a53
+- req_id: REQ-F-005
+  rule_ids:
+  - 6a9f4601_3c9f_4c96_a4df_6052b2a476fd
+- req_id: REQ-F-006
+  rule_ids:
+  - 15c2b906_aa63_4d24_9f79_e7bc4e85d621
+- req_id: REQ-F-007
+  rule_ids:
+  - 6a2e4e39_f04b_47e4_8773_e6e43bfb38d9
+- req_id: REQ-F-008
+  rule_ids:
+  - e81c57b6_a998_417d_ba92_f04705d9a264
+- req_id: REQ-F-011
+  rule_ids:
+  - 453f76f2_a9c3_4a18_881e_f2f75e3434af
+- req_id: REQ-F-012
+  rule_ids:
+  - f56f4821_1b9f_4905_9818_3d517f132748
+- req_id: REQ-F-013
+  rule_ids:
+  - cedeb7a9_ef39_4695_a0f4_0e6e0728a767
+- req_id: REQ-F-016
+  rule_ids:
+  - e3b888d9_f331_41db_8a7d_4a59f08a478f
+- req_id: REQ-F-018
+  rule_ids:
+  - 0829dcdf_dbb0_4fc7_9d7d_132200449827
+- req_id: REQ-F-019
+  rule_ids:
+  - 372ca928_0a87_43d1_b302_34837347a303
+- req_id: REQ-F-020
+  rule_ids:
+  - a6e35d68_a6bc_4de2_971d_37ecadbf3edc
+- req_id: REQ-F-021
+  rule_ids:
+  - 6dbfac37_fa3e_411c_876a_7de05942faf3
+- req_id: REQ-F-022
+  rule_ids:
+  - 78292acf_7b8f_43bb_b4a8_23e4c8bac30e
+- req_id: REQ-F-023
+  rule_ids:
+  - 739c9c3d_5228_4569_aaea_48758dec6bce
+- req_id: REQ-F-024
+  rule_ids:
+  - e9d03468_b831_4d0e_8450_2a860393467a
+- req_id: REQ-F-025
+  rule_ids:
+  - bfa798be_b006_49a8_9f1b_44a413fb7ba4
+- req_id: REQ-F-026
+  rule_ids:
+  - df0acc18_295a_4571_b97a_036e484db441
+- req_id: REQ-F-027
+  rule_ids:
+  - ba3a0b6f_0412_4337_920d_32f42f8cccd7
+- req_id: REQ-F-028
+  rule_ids:
+  - 9e945f8a_651e_4685_82a8_d55e599ac6c2
+- req_id: REQ-F-029
+  rule_ids:
+  - 98d5ed10_6496_493b_99c1_ec1bbf466593
+- req_id: REQ-F-030
+  rule_ids:
+  - 583adf59_aaac_4973_bc6f_302569389832
+- req_id: REQ-F-031
+  rule_ids:
+  - 04b6144d_6318_46ce_8579_b546c8fe0fda
+- req_id: REQ-F-032
+  rule_ids:
+  - 7f07b7fb_9ee9_41d5_bd12_858d99c6a409
+  - 59bbd586_ced0_48c3_aa44_45a4823355a3
+- req_id: REQ-F-033
+  rule_ids:
+  - c5962941_b69b_4b9b_8260_18b8e7cd2a7f
+- req_id: REQ-F-034
+  rule_ids:
+  - e392564d_c70c_4155_9c24_c7d1cdc9ce4c
+- req_id: REQ-F-035
+  rule_ids:
+  - d20e21c1_94f4_408c_8c25_db7f26ea5f0b
+- req_id: REQ-F-036
+  rule_ids:
+  - 147ee9a2_dc13_43f2_a29c_7aa497470c06
+  - 3bfb473c_d421_4e31_88fb_b565812ad1e9
+- req_id: REQ-F-037
+  rule_ids:
+  - d6a7e0d2_a82e_4a24_ab40_5ca58185343c
+- req_id: REQ-F-038
+  rule_ids:
+  - aba1efa4_b75e_4d87_a026_bee40c9dcd27
+  - 6b90a132_21e4_403e_8485_b830113991f0
+  - 91a848a5_e2ed_4f9d_ace9_e469977627e8
+- req_id: REQ-F-041
+  rule_ids:
+  - ad2fd418_60f6_4a41_9237_57df37812f57
+  - c70b3a0d_0f74_4021_bca7_316a226be497
+  - 2324f292_d51f_473e_9cdb_3d7c0ad488f5
+- req_id: REQ-F-042
+  rule_ids:
+  - c4449370_ffc1_45cc_a5da_4ba1fae70d1d
+  - 6bd7915e_a547_4763_8418_6fa770c158f3
+  - dff0e756_300f_4ce0_aa29_3b31365120f6
+- req_id: REQ-F-043
+  rule_ids:
+  - 2856dee2_b23c_4ee9_a162_c31ea27c0cda
+  - 660069d3_4d8e_4506_966a_299677df7855
+  - 096a9222_dc39_4bfc_97ba_bd59922522d9
+- req_id: REQ-F-044
+  rule_ids:
+  - 5bff65e1_1641_4a12_9d45_51d29a36e98f
+- req_id: REQ-F-045
+  rule_ids:
+  - 7161ae8a_e144_4dc9_b327_9286b4086259
+- req_id: REQ-F-046
+  rule_ids:
+  - b5d535cd_730a_48f2_916e_ccfcd34bcafa
+  - 0958c8f3_7569_451b_a434_6a4a7ae5c99a
+- req_id: REQ-F-047
+  rule_ids:
+  - c4cc1bd0_35e6_450c_80fc_b8f46ce67d93

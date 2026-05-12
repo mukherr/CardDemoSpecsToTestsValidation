@@ -1,0 +1,377 @@
+function: ReportingandBusinessIntelligence
+generated_at: '2026-05-06T22:09:06Z'
+summary:
+  total_rules: 66
+  captured: 35
+  not_applicable: 31
+rules:
+- rule_id: 04d56f73_959e_45e8_a44c_4add77fe52bc
+  program: REPTFILE
+  disposition: captured
+  req_id: REQ-F-037
+- rule_id: 082a03e4_b9bf_46f2_b491_6af095326a32
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: 09afccbb_85f6_453e_a0b7_f4a60340d4f5
+  program: CORPT00C
+  disposition: captured
+  req_id: REQ-F-002
+- rule_id: 0a4ab8bd_d71c_4f47_8f2b_0e78c3f1f990
+  program: CORPT00C
+  disposition: captured
+  req_id: REQ-F-001
+- rule_id: 0c53ca08_3374_4309_a140_1d42ca8668a4
+  program: CBTRN03C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 0f41d8c5_bd84_4d1a_86a7_fbe263ccd7bd
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: 11fe5bf2_2aae_43ec_8d12_bf2d2fb7c5ae
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] CICS/BMS platform mechanics'
+- rule_id: 12d3b089_45e2_4a5d_bc56_767d23c22745
+  program: CORPT00C
+  disposition: captured
+  req_id: REQ-F-028
+- rule_id: 13c74e07_ea6a_437a_9930_e72085d3836c
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: 169b565a_9d82_442f_9b73_39459c23761c
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] CICS/BMS platform mechanics'
+- rule_id: 16abe5bb_8105_4efa_81e2_7a5fd91dd6f9
+  program: CORPT00C
+  disposition: captured
+  req_id: REQ-F-010
+- rule_id: 182d5529_ecc5_4535_b682_4e7892bd64f5
+  program: CORPT00C
+  disposition: captured
+  req_id: REQ-F-013
+- rule_id: 1d973d7f_ef14_45ca_8927_76cdf24fa2cf
+  program: CBTRN03C
+  disposition: captured
+  req_id: REQ-F-049
+- rule_id: 1eaa3e62_af1f_4e7d_a97d_d62f99f6d22f
+  program: CORPT00C
+  disposition: captured
+  req_id: REQ-F-032
+- rule_id: 240c0894_a3e0_4146_8c04_d78fc10d8430
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: 249306a6_90bc_4f34_a53f_5a585d204f98
+  program: CBTRN03C
+  disposition: captured
+  req_id: REQ-F-050
+- rule_id: 34522e2b_af3f_4838_9b2a_eb77bb341fbe
+  program: CBTRN03C
+  disposition: captured
+  req_id: REQ-F-046
+- rule_id: 38af5ba4_0685_42ff_98a9_80575efa9a4f
+  program: CORPT00C
+  disposition: captured
+  req_id: REQ-F-008
+- rule_id: 432a4398_28d8_4954_8cdf_55a1072e0daa
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: 4b6c4aaa_5ce5_4bf9_b11e_34a6b9ddd940
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: 4eb601c8_99bf_441b_8392_27ebad72579d
+  program: CBTRN03C
+  disposition: captured
+  req_id: REQ-F-045
+- rule_id: 54901127_eada_4bdd_b00b_2e3be7ffe0e2
+  program: CBTRN03C
+  disposition: captured
+  req_id: REQ-F-052
+- rule_id: 5aff725a_1f23_4810_8b6e_3f52ee6833bb
+  program: CBTRN03C
+  disposition: captured
+  req_id: REQ-F-048
+- rule_id: 5befacef_497b_4822_93e0_235fb49f0173
+  program: TRANREPT
+  disposition: captured
+  req_id: REQ-F-040
+- rule_id: 5c4f0a3b_9d85_41b8_85c3_b2c7e76cb024
+  program: CBTRN03C
+  disposition: captured
+  req_id: REQ-F-051
+- rule_id: 65ee8321_857d_42dc_9b02_2162900cc3ef
+  program: CORPT00C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 66f85e30_6775_46ca_a345_1547213bbb12
+  program: CORPT00C
+  disposition: captured
+  req_id: REQ-F-006
+- rule_id: 75c0f238_62d9_4ea3_9d40_0f79aa2b5762
+  program: CORPT00C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 789450e1_2523_4b27_b847_836b6326c802
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: 7c949c55_d0d4_43f8_9ad7_19efa0b6a2f0
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: 805a62ba_2185_43ca_a484_ae089eeb5087
+  program: CORPT00C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 81416bcd_63f7_4ad8_bf3e_ab48d7b8c7c7
+  program: CBTRN03C
+  disposition: captured
+  req_id: REQ-F-042
+- rule_id: 839f167e_470d_40c9_ae01_4598f404d244
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: 83b58860_13da_4e4a_bacc_3a04ca2f4d9f
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: 87aca741_47da_44e8_a857_ea624c20a34c
+  program: CBTRN03C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 8992ef1b_6ffd_493c_a684_df6a027b7639
+  program: CORPT00C
+  disposition: captured
+  req_id: REQ-F-003
+- rule_id: 91f5d738_07b9_4219_adcb_a2e1cf3a901a
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 94fa6df6_fe90_4cb7_b24d_7e94398e7565
+  program: CORPT00C
+  disposition: captured
+  req_id: REQ-F-005
+- rule_id: 963c0908_48b5_42df_9da0_91806b25d415
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: 967b47e1_8e4e_4c17_85bc_60b67d83d527
+  program: CBTRN03C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 97fb808f_9881_47a7_94b5_a841fc280bea
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: 9a56e986_b316_42e0_91f9_16bcfeb32a11
+  program: REPRTEST
+  disposition: captured
+  req_id: REQ-F-035
+- rule_id: a00f2a0b_126d_4502_b4a4_99a381411019
+  program: CORPT00C
+  disposition: captured
+  req_id: REQ-F-005
+- rule_id: a10409f9_d221_473d_9186_ecc55a635f85
+  program: CBTRN03C
+  disposition: captured
+  req_id: REQ-F-047
+- rule_id: a1a1ced5_8a1d_446f_ae4c_40fbebb39753
+  program: CORPT00C
+  disposition: captured
+  req_id: REQ-F-028
+- rule_id: a734421e_d39c_4b55_98dc_602b4918f123
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: abbabe19_5067_4833_8364_a86489c75fe4
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: ad935014_4ab1_4349_9414_201904cccb72
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: aeda90ad_a358_478b_8069_67cd2e9c23d3
+  program: CBTRN03C
+  disposition: captured
+  req_id: REQ-F-045
+- rule_id: b7f25e57_4753_47d7_b43c_62407c50ad81
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: c32a7cb1_bf9d_49f0_9794_3fb12ffaddf9
+  program: CORPT00C
+  disposition: captured
+  req_id: REQ-F-009
+- rule_id: c680b4a7_6e86_4751_8086_937ff6756a08
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: c7c823e7_ab5a_4580_b283_6a106b36228a
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: cfca3999_3193_49aa_8493_256a4ea5529f
+  program: PRTCATBL
+  disposition: captured
+  req_id: REQ-F-033
+- rule_id: d3060082_ec0e_44a7_9f6b_2589dcbfdc53
+  program: CORPT00C
+  disposition: captured
+  req_id: REQ-F-002
+- rule_id: d7d14aab_5fe6_4230_98e5_a48916a9ecda
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: df4cd0d4_6ee0_486d_af50_cd74c6eb247b
+  program: TRANREPT
+  disposition: not_applicable
+  reason: '[Pattern-classified] Data formatting for display'
+- rule_id: e3903be4_5cba_42a4_8817_45d926dc2fbb
+  program: CORPT00C
+  disposition: captured
+  req_id: REQ-F-005
+- rule_id: e647fc4c_41bd_42a1_93fb_901e0c0416ee
+  program: CORPT00C
+  disposition: captured
+  req_id: REQ-F-023
+- rule_id: e82e5509_d01b_417f_b7f0_304e04dac870
+  program: CBTRN03C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: e8926d72_4c4b_4005_932d_0e9b40c83d2a
+  program: CORPT00C
+  disposition: captured
+  req_id: REQ-F-005
+- rule_id: f0cd44ee_9e06_4354_abe2_56ac1cb2dd3c
+  program: CBTRN03C
+  disposition: captured
+  req_id: REQ-F-044
+- rule_id: f320c5cb_28e1_49b8_aaa4_a90c54cbfb70
+  program: CORPT00C
+  disposition: captured
+  req_id: REQ-F-005
+- rule_id: fc76a68c_9fb5_4073_83dd_56f9b2e57424
+  program: CBTRN03C
+  disposition: captured
+  req_id: REQ-F-044
+- rule_id: fe2dd738_1cde_478e_8121_a479e50b870b
+  program: TRANREPT
+  disposition: captured
+  req_id: REQ-F-039
+- rule_id: ffc5f409_b526_4f07_90f9_2a4823828171
+  program: CORPT00C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+requirements:
+- req_id: REQ-F-001
+  rule_ids:
+  - 0a4ab8bd_d71c_4f47_8f2b_0e78c3f1f990
+- req_id: REQ-F-002
+  rule_ids:
+  - 09afccbb_85f6_453e_a0b7_f4a60340d4f5
+  - d3060082_ec0e_44a7_9f6b_2589dcbfdc53
+- req_id: REQ-F-003
+  rule_ids:
+  - 8992ef1b_6ffd_493c_a684_df6a027b7639
+- req_id: REQ-F-005
+  rule_ids:
+  - 94fa6df6_fe90_4cb7_b24d_7e94398e7565
+  - a00f2a0b_126d_4502_b4a4_99a381411019
+  - e3903be4_5cba_42a4_8817_45d926dc2fbb
+  - e8926d72_4c4b_4005_932d_0e9b40c83d2a
+  - f320c5cb_28e1_49b8_aaa4_a90c54cbfb70
+- req_id: REQ-F-006
+  rule_ids:
+  - 66f85e30_6775_46ca_a345_1547213bbb12
+- req_id: REQ-F-008
+  rule_ids:
+  - 38af5ba4_0685_42ff_98a9_80575efa9a4f
+- req_id: REQ-F-009
+  rule_ids:
+  - c32a7cb1_bf9d_49f0_9794_3fb12ffaddf9
+- req_id: REQ-F-010
+  rule_ids:
+  - 16abe5bb_8105_4efa_81e2_7a5fd91dd6f9
+- req_id: REQ-F-013
+  rule_ids:
+  - 182d5529_ecc5_4535_b682_4e7892bd64f5
+- req_id: REQ-F-020
+  rule_ids:
+  - 9867bc60_014f_4173_9c63_e6bbb4e5e904
+  - eca55d56_ddd7_427d_b1aa_dc6da72484c5
+- req_id: REQ-F-023
+  rule_ids:
+  - e647fc4c_41bd_42a1_93fb_901e0c0416ee
+- req_id: REQ-F-028
+  rule_ids:
+  - 12d3b089_45e2_4a5d_bc56_767d23c22745
+  - a1a1ced5_8a1d_446f_ae4c_40fbebb39753
+- req_id: REQ-F-032
+  rule_ids:
+  - 1eaa3e62_af1f_4e7d_a97d_d62f99f6d22f
+- req_id: REQ-F-033
+  rule_ids:
+  - cfca3999_3193_49aa_8493_256a4ea5529f
+- req_id: REQ-F-035
+  rule_ids:
+  - 9a56e986_b316_42e0_91f9_16bcfeb32a11
+- req_id: REQ-F-037
+  rule_ids:
+  - 04d56f73_959e_45e8_a44c_4add77fe52bc
+- req_id: REQ-F-039
+  rule_ids:
+  - fe2dd738_1cde_478e_8121_a479e50b870b
+- req_id: REQ-F-040
+  rule_ids:
+  - 5befacef_497b_4822_93e0_235fb49f0173
+- req_id: REQ-F-042
+  rule_ids:
+  - 81416bcd_63f7_4ad8_bf3e_ab48d7b8c7c7
+  - 81416bcd_63f7_4ad8_bf3e_ab48d7b8c7c7
+- req_id: REQ-F-044
+  rule_ids:
+  - f0cd44ee_9e06_4354_abe2_56ac1cb2dd3c
+  - fc76a68c_9fb5_4073_83dd_56f9b2e57424
+  - f0cd44ee_9e06_4354_abe2_56ac1cb2dd3c
+  - fc76a68c_9fb5_4073_83dd_56f9b2e57424
+- req_id: REQ-F-045
+  rule_ids:
+  - 4eb601c8_99bf_441b_8392_27ebad72579d
+  - aeda90ad_a358_478b_8069_67cd2e9c23d3
+  - 4eb601c8_99bf_441b_8392_27ebad72579d
+  - aeda90ad_a358_478b_8069_67cd2e9c23d3
+- req_id: REQ-F-046
+  rule_ids:
+  - 34522e2b_af3f_4838_9b2a_eb77bb341fbe
+  - 34522e2b_af3f_4838_9b2a_eb77bb341fbe
+- req_id: REQ-F-047
+  rule_ids:
+  - a10409f9_d221_473d_9186_ecc55a635f85
+  - a10409f9_d221_473d_9186_ecc55a635f85
+- req_id: REQ-F-048
+  rule_ids:
+  - 5aff725a_1f23_4810_8b6e_3f52ee6833bb
+  - 5aff725a_1f23_4810_8b6e_3f52ee6833bb
+- req_id: REQ-F-049
+  rule_ids:
+  - 1d973d7f_ef14_45ca_8927_76cdf24fa2cf
+  - 1d973d7f_ef14_45ca_8927_76cdf24fa2cf
+- req_id: REQ-F-050
+  rule_ids:
+  - 249306a6_90bc_4f34_a53f_5a585d204f98
+  - 249306a6_90bc_4f34_a53f_5a585d204f98
+- req_id: REQ-F-051
+  rule_ids:
+  - 5c4f0a3b_9d85_41b8_85c3_b2c7e76cb024
+  - 5c4f0a3b_9d85_41b8_85c3_b2c7e76cb024
+- req_id: REQ-F-052
+  rule_ids:
+  - 54901127_eada_4bdd_b00b_2e3be7ffe0e2
+  - 54901127_eada_4bdd_b00b_2e3be7ffe0e2

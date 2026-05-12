@@ -1,0 +1,488 @@
+function: CreditCardAccountManagement
+generated_at: '2026-05-06T22:08:30Z'
+summary:
+  total_rules: 93
+  captured: 41
+  not_applicable: 52
+rules:
+- rule_id: 00dd926a_b5cb_441f_84fe_4b8fbfdcea05
+  program: COACCT01
+  disposition: captured
+  req_id: REQ-F-001
+- rule_id: 051449be_df20_41a2_bc63_5cc67e39d0d6
+  program: COACTVWC
+  disposition: not_applicable
+  reason: '[Pattern-classified] CICS/BMS platform mechanics'
+- rule_id: 07a7a17e_9082_46f2_9775_326903b3b757
+  program: CBACT01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: 0b6a583a_2ab2_49b0_9275_1cf0bf4d27cf
+  program: COACTUPC
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: 15214e1b_2442_4b1a_b02d_2bdc8a8d3510
+  program: READACCT
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 15961950_7865_4b49_bbe5_b8b96ff7c4b1
+  program: COACTUPC
+  disposition: captured
+  req_id: REQ-F-018
+- rule_id: 16bbbc33_e158_4826_9bbe_010a2f8807de
+  program: CBACT01C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 16c52023_5245_4adc_b5f0_822d4dbcf197
+  program: READACCT
+  disposition: captured
+  req_id: REQ-F-058
+- rule_id: 16f441c0_938a_42d4_b800_cd60c2e640d6
+  program: CBACT01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: 17a8b3a1_76f8_404b_aefd_47dc2834e082
+  program: COACCT01
+  disposition: captured
+  req_id: REQ-F-011
+- rule_id: 1815b1ab_b00c_442e_a2b0_258b898e0c7c
+  program: COACTUPC
+  disposition: captured
+  req_id: REQ-F-038
+- rule_id: 1d7a2b60_c501_4183_9bb5_e5c95c987626
+  program: COACTUPC
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 1e5e535c_50e1_41c0_83b8_6670ca7e47b1
+  program: CBACT01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: 25b54d09_6cef_4e5f_9943_85cbda147c0c
+  program: CBACT01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: 2730a822_ae8c_4784_8126_7e74460df662
+  program: CBACT01C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 277ba329_2086_40cb_b9f4_79d97bbf56f0
+  program: CBACT01C
+  disposition: captured
+  req_id: REQ-F-062
+- rule_id: 2848d464_227c_452d_a10c_ac32bc965cfa
+  program: COACTUPC
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 28bb4c07_1683_49a5_ba5f_02179bdb11f6
+  program: COACCT01
+  disposition: captured
+  req_id: REQ-F-013
+- rule_id: 2b128a11_21b5_4d9e_aa80_7cdd78439f46
+  program: COACTUPC
+  disposition: captured
+  req_id: REQ-F-040
+- rule_id: 2b5bc4fa_4904_4361_b03e_147a281ce0e5
+  program: CBACT01C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 31f647d0_a3f2_4d32_a13d_e7617fc4a410
+  program: CBACT01C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 33028622_edb1_4040_9310_dba00862df9f
+  program: CBACT01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: 3509e241_cc6f_4b3c_a9c0_46ac1b71e065
+  program: COACTUPC
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 3906b6de_2287_4914_8885_3d821aaab98e
+  program: COACCT01
+  disposition: captured
+  req_id: REQ-F-011
+- rule_id: 3ced609d_1ba9_4b5b_96f5_81456d874343
+  program: COACTVWC
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: 3ff8317b_57dc_41a5_9477_70fac9ecc2bd
+  program: COACCT01
+  disposition: captured
+  req_id: REQ-N-001
+- rule_id: 46061d19_534d_43cc_9933_3f7323a29d61
+  program: CBACT01C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 47718714_d6e4_4c3a_b642_fca4105fa6c7
+  program: CBACT01C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 5262bb35_1690_449a_b1b1_4e5706b68dc6
+  program: CBACT01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: 530dcd70_3d0a_4b0d_ae4a_41951d03f99a
+  program: CBACT01C
+  disposition: captured
+  req_id: REQ-F-065
+- rule_id: 54488a2e_4569_4968_b699_a33835bea613
+  program: CBACT01C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 5e2bde31_1642_4823_b863_bff067ac3ca8
+  program: COACTUPC
+  disposition: captured
+  req_id: REQ-F-020
+- rule_id: 5ff86259_e52b_4abf_aacc_c1a1820a8abe
+  program: COACCT01
+  disposition: captured
+  req_id: REQ-F-013
+- rule_id: 638d15ea_1981_4f82_ba1c_509189ef4f61
+  program: COACCT01
+  disposition: captured
+  req_id: REQ-F-011
+- rule_id: 6752294d_8c23_489c_a6a1_eabc95a679a5
+  program: COACTUPC
+  disposition: captured
+  req_id: REQ-F-030
+- rule_id: 69eb02bb_1087_442a_9553_88fe9f5a21b6
+  program: COACTVWC
+  disposition: captured
+  req_id: REQ-F-050
+- rule_id: 6ad38adf_6bc9_415e_8ef9_1a1316ef1ccb
+  program: CBACT01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: 6bab246e_421c_4f4e_a739_cfbf4099478c
+  program: READACCT
+  disposition: captured
+  req_id: REQ-F-058
+- rule_id: 70d524a0_1d7a_42e3_9bbc_5f63fa0dc0c0
+  program: COACTVWC
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 7813af43_a8c5_4cdb_92e0_2433211cbc4b
+  program: READACCT
+  disposition: not_applicable
+  reason: '[Pattern-classified] Data formatting for display'
+- rule_id: 78dfea11_ab45_4d96_815c_8d2766a02c3f
+  program: CBACT01C
+  disposition: captured
+  req_id: REQ-F-065
+- rule_id: 7d064b8e_ff1d_43ff_9b6e_fc2095e841b7
+  program: COACTUPC
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: 7dbd9fb8_4109_4ed3_8a63_634837a76977
+  program: CBACT01C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 8442d61c_f281_4dfc_a5cb_8101093cedb4
+  program: CBACT01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: 8e098879_200a_4684_9e92_9ba2580561d3
+  program: CBACT01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: 8e327563_0528_49a5_950e_acdf201cd712
+  program: COACCT01
+  disposition: captured
+  req_id: REQ-F-009
+- rule_id: 8f0eeecd_9743_43ec_97af_f9595f9468e9
+  program: COACCT01
+  disposition: captured
+  req_id: REQ-F-010
+- rule_id: 8ff652af_4491_45e4_926f_9a5c49a5804b
+  program: READACCT
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: 963ff603_2457_497a_8224_e5d8fad28eec
+  program: COACTVWC
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: 97055d8c_48b9_4178_aa3c_12009d10a066
+  program: COACTVWC
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: 985198d0_5180_45fe_bf15_7264be8f782d
+  program: ACCTFILE
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: 9bea3ef2_bfdf_48cd_b407_ab7ff0b2036d
+  program: COACTUPC
+  disposition: captured
+  req_id: REQ-F-032
+- rule_id: 9c6b52f6_5a9f_4796_904f_db4877aaf838
+  program: COACTUPC
+  disposition: captured
+  req_id: REQ-F-014
+- rule_id: a2a5e88d_b55b_4b29_9ce5_08f2c780cb68
+  program: CBACT01C
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: a2f867cc_51f2_4828_84e1_56d4e61a9d3d
+  program: COACTVWC
+  disposition: captured
+  req_id: REQ-F-049
+- rule_id: a57c3c21_e82b_4824_a2c2_7b8250a2a72b
+  program: CBACT01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: a5b5d8b0_d5e1_45ca_af4d_b3fdc8466512
+  program: CBACT01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: a5de543f_ac85_495c_bdb0_0a224fab606b
+  program: COACTVWC
+  disposition: captured
+  req_id: REQ-F-046
+- rule_id: a9dbd7d6_945b_40cc_a662_ea36ce1f4442
+  program: COACTUPC
+  disposition: captured
+  req_id: REQ-F-044
+- rule_id: ace1019e_0c76_4edd_9e04_defb6648d82f
+  program: CBACT01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: ad753543_57a0_406d_be94_7db015f54f1e
+  program: CBACT01C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: add439ae_d780_464f_9d3b_ec9be4032278
+  program: CBACT01C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: af6caf14_9cca_4e61_a9b9_d4e35471b30f
+  program: CBACT01C
+  disposition: captured
+  req_id: REQ-F-058
+- rule_id: b80162f8_935b_41ed_bb0c_737947cbd2bc
+  program: COACCT01
+  disposition: captured
+  req_id: REQ-F-013
+- rule_id: bce7c797_e2c0_4cde_b8b7_e71362fa7b1a
+  program: CBACT01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: bd7bfc47_c9b5_4f35_8b2d_bea827ed1445
+  program: COACTUPC
+  disposition: captured
+  req_id: REQ-F-033
+- rule_id: bd98b018_1bed_4d0e_b527_94012a908ca4
+  program: CBACT01C
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: bf12be01_bede_4c2f_9564_59eefc4635de
+  program: ACCTFILE
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: bfacb46b_0c79_4cad_8e51_589e515243f5
+  program: COACCT01
+  disposition: captured
+  req_id: REQ-F-006
+- rule_id: c5754008_cdda_4868_8d70_a190b17fb015
+  program: CBACT01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: c6c297fc_290e_4ca1_bc14_78e2cfa63902
+  program: COACTVWC
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: c877ee26_66ef_4fd4_a933_ccc12244bc8c
+  program: COACTUPC
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: c8e8374f_a7d3_4a74_8811_2b05d793b617
+  program: CBACT01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: cbae2830_f53e_4684_a410_ed55cd28902d
+  program: COACTVWC
+  disposition: captured
+  req_id: REQ-F-053
+- rule_id: cbbd9161_de35_4c5d_9a27_443843bebd75
+  program: COACCT01
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: d512ff61_cc6b_4d9a_90fe_03eae4b1a8f8
+  program: READACCT
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: d72e2c88_071f_4f2b_b503_0d834de4d8d2
+  program: CBACT01C
+  disposition: captured
+  req_id: REQ-F-064
+- rule_id: d74a22fd_8e86_4282_888c_597640019000
+  program: COACTUPC
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: d7e2eaf7_c9b5_49a1_bcae_4f07f9ba05f5
+  program: COACTUPC
+  disposition: captured
+  req_id: REQ-F-015
+- rule_id: dec37963_91d1_4165_9aff_f742c6118981
+  program: COACTUPC
+  disposition: captured
+  req_id: REQ-F-031
+- rule_id: dfb58757_becd_485b_9679_9f63392ec7c8
+  program: COACTVWC
+  disposition: captured
+  req_id: REQ-F-048
+- rule_id: eb7934de_7711_4dbb_914c_c40b40bb31fc
+  program: COACTUPC
+  disposition: captured
+  req_id: REQ-F-034
+- rule_id: f1178bc3_d355_48e9_ac37_0822902f655d
+  program: COACTVWC
+  disposition: captured
+  req_id: REQ-F-046
+- rule_id: f228e89b_1324_4928_8417_6c6e0c3ec570
+  program: ACCTFILE
+  disposition: not_applicable
+  reason: '[Noise context] Working storage initialization'
+- rule_id: f333c2e5_0664_46e3_856e_0559d4e7858f
+  program: COACCT01
+  disposition: captured
+  req_id: REQ-F-013
+- rule_id: f3c4d399_7117_4db1_bfbe_c3df1c02d652
+  program: COACTUPC
+  disposition: captured
+  req_id: REQ-F-037
+- rule_id: f492da29_2eab_457a_aee5_9c5bb563e347
+  program: COACTVWC
+  disposition: not_applicable
+  reason: '[Pattern-classified] Screen rendering mechanics'
+- rule_id: f4dbcca6_89f0_4f2e_b4cd_c0d92d2785bc
+  program: CBACT01C
+  disposition: not_applicable
+  reason: '[Noise context] File handling mechanics'
+- rule_id: f83ba878_d3a1_469f_9a4e_0a428b17f2f1
+  program: COACTUPC
+  disposition: captured
+  req_id: REQ-F-036
+- rule_id: f9a8b18a_7b5e_42cc_84e9_dce18964f8dc
+  program: COACTUPC
+  disposition: not_applicable
+  reason: '[Pattern-classified] Working storage initialization'
+- rule_id: fc4efae0_08cb_42ef_8488_241b2a62565b
+  program: COACTUPC
+  disposition: captured
+  req_id: REQ-F-039
+- rule_id: fcb3e95d_9245_41fc_8666_84bbe15bf889
+  program: READACCT
+  disposition: not_applicable
+  reason: Implementation mechanics — no business intent
+- rule_id: ff89b41d_4250_4bcb_98ac_4d06ce2b8e28
+  program: CBACT01C
+  disposition: captured
+  req_id: REQ-F-061
+requirements:
+- req_id: REQ-F-001
+  rule_ids:
+  - 00dd926a_b5cb_441f_84fe_4b8fbfdcea05
+- req_id: REQ-F-006
+  rule_ids:
+  - bfacb46b_0c79_4cad_8e51_589e515243f5
+- req_id: REQ-F-009
+  rule_ids:
+  - 8e327563_0528_49a5_950e_acdf201cd712
+- req_id: REQ-F-010
+  rule_ids:
+  - 8f0eeecd_9743_43ec_97af_f9595f9468e9
+- req_id: REQ-F-011
+  rule_ids:
+  - 17a8b3a1_76f8_404b_aefd_47dc2834e082
+  - 3906b6de_2287_4914_8885_3d821aaab98e
+  - 638d15ea_1981_4f82_ba1c_509189ef4f61
+- req_id: REQ-F-013
+  rule_ids:
+  - 28bb4c07_1683_49a5_ba5f_02179bdb11f6
+  - 5ff86259_e52b_4abf_aacc_c1a1820a8abe
+  - b80162f8_935b_41ed_bb0c_737947cbd2bc
+  - f333c2e5_0664_46e3_856e_0559d4e7858f
+- req_id: REQ-F-014
+  rule_ids:
+  - 9c6b52f6_5a9f_4796_904f_db4877aaf838
+- req_id: REQ-F-015
+  rule_ids:
+  - d7e2eaf7_c9b5_49a1_bcae_4f07f9ba05f5
+- req_id: REQ-F-018
+  rule_ids:
+  - 15961950_7865_4b49_bbe5_b8b96ff7c4b1
+- req_id: REQ-F-020
+  rule_ids:
+  - 5e2bde31_1642_4823_b863_bff067ac3ca8
+- req_id: REQ-F-030
+  rule_ids:
+  - 6752294d_8c23_489c_a6a1_eabc95a679a5
+- req_id: REQ-F-031
+  rule_ids:
+  - dec37963_91d1_4165_9aff_f742c6118981
+- req_id: REQ-F-032
+  rule_ids:
+  - 9bea3ef2_bfdf_48cd_b407_ab7ff0b2036d
+- req_id: REQ-F-033
+  rule_ids:
+  - bd7bfc47_c9b5_4f35_8b2d_bea827ed1445
+- req_id: REQ-F-034
+  rule_ids:
+  - eb7934de_7711_4dbb_914c_c40b40bb31fc
+- req_id: REQ-F-036
+  rule_ids:
+  - f83ba878_d3a1_469f_9a4e_0a428b17f2f1
+- req_id: REQ-F-037
+  rule_ids:
+  - f3c4d399_7117_4db1_bfbe_c3df1c02d652
+- req_id: REQ-F-038
+  rule_ids:
+  - 1815b1ab_b00c_442e_a2b0_258b898e0c7c
+- req_id: REQ-F-039
+  rule_ids:
+  - fc4efae0_08cb_42ef_8488_241b2a62565b
+- req_id: REQ-F-040
+  rule_ids:
+  - 2b128a11_21b5_4d9e_aa80_7cdd78439f46
+- req_id: REQ-F-044
+  rule_ids:
+  - a9dbd7d6_945b_40cc_a662_ea36ce1f4442
+- req_id: REQ-F-046
+  rule_ids:
+  - a5de543f_ac85_495c_bdb0_0a224fab606b
+  - f1178bc3_d355_48e9_ac37_0822902f655d
+- req_id: REQ-F-048
+  rule_ids:
+  - dfb58757_becd_485b_9679_9f63392ec7c8
+- req_id: REQ-F-049
+  rule_ids:
+  - a2f867cc_51f2_4828_84e1_56d4e61a9d3d
+- req_id: REQ-F-050
+  rule_ids:
+  - 69eb02bb_1087_442a_9553_88fe9f5a21b6
+- req_id: REQ-F-053
+  rule_ids:
+  - cbae2830_f53e_4684_a410_ed55cd28902d
+- req_id: REQ-F-058
+  rule_ids:
+  - 16c52023_5245_4adc_b5f0_822d4dbcf197
+  - 6bab246e_421c_4f4e_a739_cfbf4099478c
+  - af6caf14_9cca_4e61_a9b9_d4e35471b30f
+- req_id: REQ-F-061
+  rule_ids:
+  - ff89b41d_4250_4bcb_98ac_4d06ce2b8e28
+- req_id: REQ-F-062
+  rule_ids:
+  - 277ba329_2086_40cb_b9f4_79d97bbf56f0
+  - 277ba329_2086_40cb_b9f4_79d97bbf56f0
+- req_id: REQ-F-064
+  rule_ids:
+  - d72e2c88_071f_4f2b_b503_0d834de4d8d2
+- req_id: REQ-F-065
+  rule_ids:
+  - 78dfea11_ab45_4d96_815c_8d2766a02c3f
+  - 530dcd70_3d0a_4b0d_ae4a_41951d03f99a
+  - 78dfea11_ab45_4d96_815c_8d2766a02c3f
+  - 530dcd70_3d0a_4b0d_ae4a_41951d03f99a
+- req_id: REQ-N-001
+  rule_ids:
+  - 3ff8317b_57dc_41a5_9477_70fac9ecc2bd
