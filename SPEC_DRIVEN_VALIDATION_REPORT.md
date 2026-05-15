@@ -1,6 +1,5 @@
 # Specification-Driven Code Validation via Generated Tests
 
-**Audience:** Scientists and senior engineers evaluating spec-to-code pipelines  
 **System Under Study:** CardDemo — a credit card management application  
 **Date:** 2026-05-14
 
